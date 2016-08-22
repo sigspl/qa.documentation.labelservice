@@ -1,21 +1,12 @@
 package org.fiware.qa.documentation.measurements;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-import org.fiware.qa.documentation.measurements.ingest.EnablerStorage;
-import org.fiware.qa.documentation.measurements.ingest.Item2EnablerConverter;
-import org.fiware.qa.documentation.measurements.ingest.ItemStorage;
-import org.fiware.qa.documentation.measurements.models.EnablerDescription;
-import org.fiware.qa.documentation.measurements.models.ScrapedEnablerCataloguePage;
+import org.fiware.qa.documentation.measurements.ingest.*;
+import org.fiware.qa.documentation.measurements.models.*;
 
 
 

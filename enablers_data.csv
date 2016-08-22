@@ -1,62 +1,62 @@
-Unit Functional Testing Framework;0,5
-3D-UI-XML3D;0,5
-Privacy;0,5
-FIWARE NGSI10 TestServer;0,5
-Synchronization;0,49
-Object Storage GE - FIWARE Implementation;0,49
-Marketplace - WMarket;0,49
-Complex Event Processing (CEP) - Proactive Technology Online;0,49
-PROSA;0,49
-Virtual Characters;0,47
-Authorization PDP - AuthZForce;0,47
-Cyber Security GE - CyberCAPTOR;0,47
-Docker;0,47
-CKAN;0,47
-FIA Project Management Plugin;0,46
-Data Visualization - SpagoBI;0,46
-Augmented Reality;0,46
-Trustworthy Factory;0,46
-Kiara Advanced Middleware;0,46
-Repository - Repository RI;0,46
-Synchronization - FiVES;0,45
-Backend Device Management - IDAS;0,45
-SoPeCo;0,45
-POI Data Provider;0,45
-IoT Data Edge Consolidation GE - Cepheus;0,44
-Application Mashup - Wirecloud;0,44
-Revenue Settlement and Sharing System - RSS RI;0,44
-myForge;0,44
-BigData Analysis - Cosmos;0,44
-REST Client Generator;0,44
-Application Management - Murano;0,42
-Store - WStore;0,41
-FusionForge Connector;0,41
-Software Deployment & Configuration - Sagitta;0,41
-3DUI - WebTundra;0,41
-Policy Manager - Bosun;0,4
-IoT Broker;0,39
-PaaS Manager - Pegasus;0,39
-Monitoring GE - Sextant;0,38
-Publish/Subscribe Context Broker - Orion Context Broker;0,38
-Interface Designer;0,36
-Trace Analyzer;0,36
-2D-UI;0,36
-Cloud Messaging - AEON;0,35
-Cloud Rendering;0,35
-GIS Data Provider - Geoserver/3D;0,34
-Network Information and Control - OFNIC;0,34
-Real Virtual Interaction;0,34
-Stream-oriented - Kurento;0,33
-IaaS GE - FIWARE Reference Implementation;0,33
-IoT Discovery;0,31
-Security Monitoring;0,31
-2D/3D Capture;0,29
-Self Service Interfaces - Cloud Portal;0,23
-Protocol Adapter - MR CoAP;0,21
-PEP Proxy - Wilma;0,2
-Identity Management - KeyRock;0,19
-3D-UI-WebTundra with Synchronization server;0,13
-Wirecloud Monetization;0,13
-3D-UI-XML3D Geo Visualization;0,13
-Business Framework Consumption;0,13
-Data Context Streams;0,13
+"Unit Functional Testing Framework";"0,341";D
+"3D-UI-XML3D";"0,341";D
+"Privacy";"0,341";D
+"FIWARE NGSI10 TestServer";"0,341";D
+"Synchronization";"0,33";D
+"Object Storage GE - FIWARE Implementation";"0,33";D
+"Marketplace - WMarket";"0,33";D
+"Complex Event Processing (CEP) - Proactive Technology Online";"0,33";D
+"PROSA";"0,33";D
+"Virtual Characters";"0,318";D
+"Authorization PDP - AuthZForce";"0,318";D
+"Cyber Security GE - CyberCAPTOR";"0,318";D
+"Docker";"0,318";D
+"CKAN";"0,318";D
+"FIA Project Management Plugin";"0,307";D
+"Data Visualization - SpagoBI";"0,307";D
+"Augmented Reality";"0,307";D
+"Trustworthy Factory";"0,307";D
+"Kiara Advanced Middleware";"0,307";D
+"Repository - Repository RI";"0,307";D
+"Synchronization - FiVES";"0,295";D
+"Backend Device Management - IDAS";"0,295";D
+"SoPeCo";"0,295";D
+"POI Data Provider";"0,295";D
+"IoT Data Edge Consolidation GE - Cepheus";"0,284";D
+"Application Mashup - Wirecloud";"0,284";D
+"Revenue Settlement and Sharing System - RSS RI";"0,284";D
+"myForge";"0,284";D
+"BigData Analysis - Cosmos";"0,284";D
+"REST Client Generator";"0,284";D
+"Application Management - Murano";"0,273";D
+"Store - WStore";"0,261";D
+"FusionForge Connector";"0,261";D
+"Software Deployment & Configuration - Sagitta";"0,261";D
+"3DUI - WebTundra";"0,261";D
+"Policy Manager - Bosun";"0,25";D
+"IoT Broker";"0,239";D
+"PaaS Manager - Pegasus";"0,239";D
+"Monitoring GE - Sextant";"0,227";D
+"Publish/Subscribe Context Broker - Orion Context Broker";"0,227";D
+"Interface Designer";"0,216";D
+"Trace Analyzer";"0,216";D
+"2D-UI";"0,216";D
+"Cloud Messaging - AEON";"0,205";D
+"Cloud Rendering";"0,205";D
+"GIS Data Provider - Geoserver/3D";"0,193";D
+"Network Information and Control - OFNIC";"0,193";D
+"Real Virtual Interaction";"0,193";D
+"Stream-oriented - Kurento";"0,182";D
+"IaaS GE - FIWARE Reference Implementation";"0,182";D
+"IoT Discovery";"0,171";D
+"Security Monitoring";"0,171";D
+"2D/3D Capture";"0,148";D
+"Self Service Interfaces - Cloud Portal";"0,091";D
+"Protocol Adapter - MR CoAP";"0,08";D
+"PEP Proxy - Wilma";"0,068";D
+"Identity Management - KeyRock";"0,057";D
+"3D-UI-WebTundra with Synchronization server";"0";D
+"Wirecloud Monetization";"0";D
+"3D-UI-XML3D Geo Visualization";"0";D
+"Business Framework Consumption";"0";D
+"Data Context Streams";"0";D

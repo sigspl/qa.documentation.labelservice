@@ -1,8 +1,11 @@
 package org.fiware.qa.documentation.measurements;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 
+import org.apache.commons.io.FileUtils;
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
 
 
@@ -39,6 +42,7 @@ public class CatalogueComplianceMeasurement {
 				measureTermsConditions();
 		
 		calculateMaximumPoints(); // !requires all methods to register points!
+		printAttributes();
 		return score/maximumPoints;
 				
 				
@@ -75,7 +79,7 @@ public class CatalogueComplianceMeasurement {
 		float L = enabler.overview.length();
 		float p = 10;
 		int x = Math.round(p-p*(Math.abs(1-(Math.abs(1-(Math.abs(L-median)/median)))))); 
-		attributes.put("catalogue.overview.length", 10);
+		attributes.put("catalogue.overview.optimal_length", 10);
 		localScore+=x; // could be 10 points for a text close to median, or 2-3 points for too long or too short text
 		
 		//System.out.println("local score: " +  localScore);
@@ -89,33 +93,30 @@ public class CatalogueComplianceMeasurement {
 		int localScore=0;
 
 		// score sections following the template
-		String m="";
+		String m,e="";
 		
 		m="Deploying a dedicated GE instance based on an image";
+		e="There are no images created for this GE implementation yet.";
 		attributes.put("catalogue.creating_instances.section1", 10);
 		if (enabler.creating_instances.matches(m))
 			localScore+=10;
+		if (enabler.creating_instances.matches(e))
+			localScore-=8;
+		
 		
 		
 		m="Deploying a dedicated GE instance in your own virtual infrastructure";
+		e="There are no recipe created for this GE implementation yet.";
 		attributes.put("catalogue.creating_instances.section2", 10);
 		if (enabler.creating_instances.matches(m))
 			localScore+=10;
-		
+		if (enabler.creating_instances.matches(e))
+			localScore-=8;
 		
 		m="Deploying a dedicated GE instance based on blueprint templates for this GE";
 		attributes.put("catalogue.creating_instances.section3", 10);
 		if (enabler.creating_instances.matches(m))
 			localScore+=10;
-		
-		
-		// "If there are no such image, the section must be filled in with "There are no images created for this GE implementation yet."
-		// -> so far, we assume that community members honestly follow the Guide in this case: we search for quality, not for fraud.
-		// attributable quality: overview contains specified string 
-		attributes.put("catalogue.creating_instances.image", 10);
-		String image_statement = "There are no images created for this GE implementation yet.";
-		if (!enabler.creating_instances.matches(image_statement))
-			localScore+=10; // otherwise we score here 10 points also in cases with another wording or fraud.
 		
 		
 		// Docker references. Additionally, this section must include references to the Docker containers and the recipes available (if any). 
@@ -132,25 +133,46 @@ public class CatalogueComplianceMeasurement {
 		return localScore;
 	}
 
+	
+	private int measureDocumentation() // TODO: next incremental level of precision would be to count/score links
+	{
+		int localScore=0;
+		String s[]= { "User and Programmer guides",
+		"User's and Programmer's guides",
+		"Installation and Administration guides",
+		"Tutorials"};
+		
+		attributes.put("catalogue.documentation", 9);
+		
+		for (int i = 0; i < s.length; i++) {
+			if (enabler.documentation.matches(s[i]))
+				localScore+=3;
+		}
+		
+		return localScore;
+	}
+	
 	private int measureDownloads()
 	{
-		return 0;
-	}
-	
-	private int measureDocumentation()
-	{
-		return 0;
-	}
-	
-	private int measureTermsConditions()
-	{
-		return 0;
+		int localScore = 0;
+		// simplest measurable value is here to check the must have GitHub reference. (with more precision, for links to GitHub)
+		attributes.put("catalogue.downloads.github_mentioned", 9);
+		if (enabler.downloads.toLowerCase().matches("github"))
+			localScore+=10;
+		return localScore;
 	}
 	
 	private int measureInstances()
 	{
 		return 0;
 	}
+	
+	
+	private int measureTermsConditions()
+	{
+		return 0;
+	}
+	
 	
 	
 	private void calculateMaximumPoints()
@@ -162,6 +184,28 @@ public class CatalogueComplianceMeasurement {
 		//System.out.println("registered max points for Catalogue: " + sum);
 		maximumPoints = sum;
 		
+	}
+	
+	public void printAttributes ()
+	{
+		String out = "";
+		for (Iterator<String> iterator = attributes.keySet().iterator(); iterator.hasNext();) {
+			String n = (String) iterator.next();
+			Integer v = attributes.get(n);
+			
+			String entry =  n+  ";" + v;
+			out = out + entry + "\n";
+			
+			
+		}
+		
+		// write a file; TODO: make a configuration option or implement further data flow
+				try {
+					FileUtils.writeStringToFile(new File(Configuration.QA_DOCS_METRICS_FILENAME), out);
+				} catch (IOException e) {
+					// TODO add log entry
+					e.printStackTrace();
+				}
 	}
 	
 	
