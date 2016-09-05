@@ -23,7 +23,7 @@ public class CatalogueComplianceMeasurement {
 	public int maximumPoints=0;
 	private EnablerDescription enabler;
 	public HashMap<String, Integer> attributes = new HashMap<String, Integer> ();
-	
+	private PlainMetricProtocol protocol;
 	
 	public void setEnabler(EnablerDescription e)
 	{
@@ -56,12 +56,24 @@ public class CatalogueComplianceMeasurement {
 		attributes.put("catalogue.overview.what", 10);
 		//System.out.println(enabler.overview);
 		if (enabler.overview.contains("What you get"))
+		{
 			localScore+=attributes.get("catalogue.overview.what");
+			protocol.storeEntry(enabler.name, "10/10 points for mentioning 'What you get'");
+		}
+		else
+			protocol.storeEntry(enabler.name, "0/10 points for missing 'What you get'");
 		
 		// attributable quality: overview contains string "Why to get it"
 		attributes.put("catalogue.overview.why", 10);
 		if (enabler.overview.contains("Why to get it"))
+		{
 			localScore+=attributes.get("catalogue.overview.why");
+			protocol.storeEntry(enabler.name, "10 points for mentioning 'Why to get it'");
+		}
+		else
+			protocol.storeEntry(enabler.name, "0/10 points for missing 'Why to get  it'");
+		
+		
 			
 	
 		// attributable quality: text length should be in certain range;
@@ -206,6 +218,11 @@ public class CatalogueComplianceMeasurement {
 					// TODO add log entry
 					e.printStackTrace();
 				}
+	}
+
+	public void setLogCollector(PlainMetricProtocol protocol) {
+		this.protocol=protocol;
+		
 	}
 	
 	

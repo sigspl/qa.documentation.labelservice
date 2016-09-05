@@ -26,24 +26,33 @@ public class MeasurementExperiment {
 	
 	private EnablerStorage enablers;
 	private HashMap<String, Double> measurementResults = new HashMap<String, Double>();
+	private PlainMetricProtocol protocol = new PlainMetricProtocol();
 	
 	public void setStorage(EnablerStorage d)
 	{
 		enablers = d;
 	}
 	
+	/*
 	public void execute (String enablerName)
 	{
 		EnablerDescription e = enablers.map.get(enablerName);
 		CatalogueComplianceMeasurement c = new CatalogueComplianceMeasurement();
 		c.setEnabler(e);
+		c.setLogCollector(protocol);
 		double score = c.measureCompliance();
 		
 		String entry = e.name+  ";" + round(score,Configuration.DECIMAL_PRECISION);
 		System.out.println(entry);
+		System.out.println("++++++++");
+		
+		System.out.println(protocol.getLog(enablerName));
+		
+		System.out.println("\n+++\n\n");
+		
 
 		
-	}
+	}*/
 	
 	public void executeAll()
 	{
@@ -54,6 +63,7 @@ public class MeasurementExperiment {
 			
 			CatalogueComplianceMeasurement c = new CatalogueComplianceMeasurement();
 			c.setEnabler(e);
+			c.setLogCollector(protocol);
 			double score = c.measureCompliance();
 			/*
 			String v = formatDouble (round(score,Configuration.DECIMAL_PRECISION));
@@ -78,6 +88,12 @@ public class MeasurementExperiment {
         	  
         	  String entry = dquote(key) + ";" + dquote(formatDouble(value)) + ";" + sl.produceLinearLabel(value);
         	  out = out + entry + "\n";
+        	
+        	  System.out.println("++++++++");
+      		
+      		System.out.println(protocol.getLog(key));
+      		
+      		System.out.println("\n+++\n\n");
         	  
         	}
         
