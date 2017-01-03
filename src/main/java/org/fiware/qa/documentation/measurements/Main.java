@@ -1,6 +1,7 @@
 package org.fiware.qa.documentation.measurements;
 
 import org.glassfish.grizzly.http.server.HttpServer;
+import org.glassfish.grizzly.http.server.ServerConfiguration;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
 
@@ -12,7 +13,10 @@ import java.net.URI;
  *
  */
 public class Main {
-    // Base URI the Grizzly HTTP server will listen on
+    
+	
+	
+	// Base URI the Grizzly HTTP server will listen on
     public static final String BASE_URI = "http://0.0.0.0:9009/myapp/";
 
     /**
@@ -36,10 +40,26 @@ public class Main {
      */
     public static void main(String[] args) throws IOException {
         final HttpServer server = startServer();
-        System.out.println(String.format("Jersey app started with WADL available at "
-                + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
-        System.in.read();
-        server.stop();
+        //System.out.println(String.format("Jersey app started with WADL available at "
+        //        + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
+        //System.in.read();
+        
+        while (true) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+		    	server.shutdownNow();
+				System.err.println("Grizzly server stopped");
+			}
+			
+		}
+        
+        
     }
+    
+    	
+	
+	
+    
 }
 

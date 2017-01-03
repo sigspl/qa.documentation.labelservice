@@ -5,16 +5,13 @@ PRODUCT="org.fiware.qa.measurements"
 TAG="$ORG/$PRODUCT:$DATE"
 TAG_LATEST="$ORG/$PRODUCT:latest"
 #PORT_MAPPING="-p 4711:8080"
-PORT_MAPPING=" "
+PORT_MAPPING="-p 9009:9009"
 
 echo "building image: $TAG"
-docker build -f Dockerfile.ubuntu16 -t $TAG .
-echo "tagging image: $TAG_LATEST"
-docker tag $TAG $TAG_LATEST
+docker build -f Dockerfile -t $TAG -t $TAG_LATEST .
 
 docker rm -f $PRODUCT || true
 
-docker run -d --name=$PRODUCT $TAG tail -f /dev/null
 
-
-
+docker run -d $PORT_MAPPING --name=$PRODUCT -v /tmp/maven/.m2:/root/.m2 $TAG_LATEST tail -f /dev/null
+docker exec $PRODUCT bash -c "mvn exec:java " &

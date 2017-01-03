@@ -11,7 +11,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class MyResourceTest {
+public class QATest {
 
     private HttpServer server;
     private WebTarget target;
@@ -41,7 +41,7 @@ public class MyResourceTest {
      * Test to see that the message "Got it!" is sent in the response.
      */
     @Test
-    public void testGetIt() {
+    public void testScoring() {
         String responseMsg = target.path("myresource").request().get(String.class);
         assertEquals("Got it!", responseMsg);
     }

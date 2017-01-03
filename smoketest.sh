@@ -1,8 +1,11 @@
 #!/bin/bash
 
-url="http://$1:$2"
+port=9009
+url="http://localhost:$port"
 
-response=$(curl --write-out %{http_code} --silent --output /dev/null $url)
+
+api_call="$url/myapp/myresource"
+response=$(curl --write-out %{http_code} --silent --output /dev/null $api_call)
 
 if [ $response != "200" ]; then
 	echo "ERROR: http code $response. Expected 200 for URL=$url"
