@@ -2,14 +2,20 @@ package org.fiware.qa.documentation.measurements;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.fiware.qa.documentation.measurements.ingest.Item2EnablerConverter;
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
-
+import com.joestelmach.natty.*;
 
 
 /**
@@ -26,6 +32,8 @@ public class CatalogueComplianceMeasurement {
 	private EnablerDescription enabler;
 	public HashMap<String, Integer> attributes = new HashMap<String, Integer> ();
 	private PlainMetricProtocol protocol;
+	
+	final static Logger logger = Logger.getLogger(CatalogueComplianceMeasurement.class);
 	
 	public void setEnabler(EnablerDescription e)
 	{
@@ -237,13 +245,14 @@ public class CatalogueComplianceMeasurement {
 		attributes.put("catalogue.meta.version_mentioned", 5);
 		attributes.put("catalogue.meta.valid_date", 10); // "recently updated e.g. not later than one year before from today  
 		attributes.put("catalogue.meta.valid_contact", 5); // contact person is mentioned
+		
 		attributes.put("catalogue.meta.valid_email", 10); // there is a valid email address
 
 		int valid_emails = 0;
 		
 		Matcher m = Pattern.compile("[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+").matcher(enabler.meta);
 	    while (m.find()) {
-	        System.out.println(m.group());
+	        //System.out.println(m.group());
 	        valid_emails++;
 	    }
 	    
@@ -255,6 +264,50 @@ public class CatalogueComplianceMeasurement {
 		}
 		else
 			protocol.storeEntry(enabler.name, "0/10 points for providing a valid contact email");
+		
+		
+		List<Date> dates =new Parser().parse(enabler.meta).get(0).getDates();
+		
+		
+		if(dates.size()>1)		
+			logger.warn("more than one date found for enabler " + enabler.name);
+		
+		
+		
+		
+		if (dates.size()==1)
+		{
+			System.out.println(dates.get(0));
+			Date enabler_date = dates.get(0);
+		
+			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+			String dateStr=dateFormat.format(enabler_date);
+			
+			
+			Date today =new Date(); 
+		    long diff = today.getTime() - enabler_date.getTime();
+		    //System.out.println ("Days difference: " + TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS));
+		    if (diff>365) 
+		    	logger.warn("Enabler dated more than since 1 year: " + enabler.name + " Date: " + dateStr);
+			
+		    if (diff>0 && diff<365)
+		    {
+		    	protocol.storeEntry(enabler.name, "10/10 points for providing a valid recent date. Date: " +  dateStr);
+		    }
+		    else
+		    {
+		    	protocol.storeEntry(enabler.name, "0/10 points for providing a valid recent date. Date: " + dateStr);
+		    }
+		
+		}
+		
+		else
+		{
+			protocol.storeEntry(enabler.name, "0/10 points for providing a valid recent date.");
+		}
+			
+		
+		
 		
 		
 		

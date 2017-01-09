@@ -39,6 +39,14 @@
             <scope>test</scope>
         </dependency>
         
+        <!-- https://mvnrepository.com/artifact/com.joestelmach/natty -->
+<dependency>
+    <groupId>com.joestelmach</groupId>
+    <artifactId>natty</artifactId>
+    <version>0.8</version>
+</dependency>
+        
+        
         
         <dependency>
     <groupId>com.google.code.gson</groupId>
