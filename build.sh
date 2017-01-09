@@ -13,5 +13,5 @@ docker build -f Dockerfile -t $TAG -t $TAG_LATEST .
 docker rm -f $PRODUCT || true
 
 
-docker run -d $PORT_MAPPING --name=$PRODUCT -v /tmp/maven/.m2:/root/.m2 $TAG_LATEST tail -f /dev/null
+docker run -d $PORT_MAPPING --name=$PRODUCT -v ~/.m2-docker:/root/.m2 $TAG_LATEST tail -f /dev/null
 docker exec $PRODUCT bash -c "mvn exec:java " &

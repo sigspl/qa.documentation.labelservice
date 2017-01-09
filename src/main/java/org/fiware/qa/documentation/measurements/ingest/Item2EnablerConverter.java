@@ -53,19 +53,36 @@ public class Item2EnablerConverter {
 			*/
 			
 			if (token.startsWith("terms-and-conditions"))
+			{
 				enabler.terms_conditions = page.text;
+				saveMeta(enabler, page);
+			}
 			else if (token.startsWith("instances"))
+			{
 				enabler.instances = page.text;
+				saveMeta(enabler, page);
+			}
 			else if (token.startsWith("downloads"))
+			{
 				enabler.downloads=page.text;
+				saveMeta(enabler, page);
+			}
 			else if (token.startsWith("documentation"))
+			{
 				enabler.documentation = page.text;
+				saveMeta(enabler, page);
+			}
 			else if (token.startsWith("creating-instances"))
+			{
 				enabler.creating_instances = page.text;
+				saveMeta(enabler, page);
+			}
 			
 			
 			
-			
+			// if none of the above cases applies, the page is main 'Overview' pages for the Enabler (if not too deviating title) 
+			// or there is an error. Assumption: very high similarity between Enabler root URL token and Enabler name
+			// - as other relevant pages have been identified as subpages
 			else 
 			{
 				
@@ -75,12 +92,15 @@ public class Item2EnablerConverter {
 				{
 					//logger.info("*INFO* fuzzy matching for " + token + " as overview page for enabler " + enabler.name);
 					enabler.overview = page.text;
+					//logger.info("META: " + enabler.meta);
+					saveMeta(enabler, page);
+									
 				}
+			
 				else
 				{
 					logger.warn("*WARN* unhandled case match /error: Enabler [" + enabler.name+ "] url ends with: " + token + " ; url=" + page.url + "; lev.distance=" + distance);
 				}
-				
 				
 			}
 				
@@ -92,6 +112,37 @@ public class Item2EnablerConverter {
 		enabler.text = accumulatedText;
 		
 		return enabler;
+	}
+	
+	
+	private void saveMeta(EnablerDescription enabler, ScrapedEnablerCataloguePage page)
+	{
+		// In case the template mechanism  works well, all meta entries would be equal. We can test this here.
+		page.meta = page.meta.trim();
+		
+		if (enabler.meta == null || enabler.meta.length()==0) 
+		{
+			enabler.meta = page.meta; // initial write-through
+			// but meta should not be empty!
+			if (page.meta ==null  || page.meta.length()==0)
+				logger.error("Enabler meta data missing in this url? " + page.meta);
+
+		}
+		
+		else if (enabler.meta.equalsIgnoreCase(page.meta))
+		{
+				// it is safe to overwrite
+				enabler.meta = page.meta;
+		
+		}
+		else
+		{
+				// something is wrong, print out error
+				logger.error("Enabler meta data mismatch detected!");
+				logger.error("ON ONE PAGE (need to manual-check: " + enabler.meta + "; length=" + enabler.meta.length());
+				logger.error("ON ANOTHER PAGE ["+ page.url+ "]: " + page.meta + "; length=" + page.meta.length());
+		}
+
 	}
 	
 }

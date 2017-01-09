@@ -4,7 +4,7 @@ port=9009
 url="http://localhost:$port"
 
 
-api_call="$url/myapp/myresource"
+api_call="$url/qa/documentation"
 response=$(curl --write-out %{http_code} --silent --output /dev/null $api_call)
 
 if [ $response != "200" ]; then

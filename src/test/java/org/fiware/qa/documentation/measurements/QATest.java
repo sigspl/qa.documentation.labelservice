@@ -42,7 +42,7 @@ public class QATest {
      */
     @Test
     public void testScoring() {
-        String responseMsg = target.path("myresource").request().get(String.class);
+        String responseMsg = target.path("documentation/getit").request().get(String.class);
         assertEquals("Got it!", responseMsg);
     }
 }

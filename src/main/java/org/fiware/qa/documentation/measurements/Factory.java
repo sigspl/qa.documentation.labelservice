@@ -33,6 +33,7 @@ public class Factory {
 		JsonArray jsonArray = new JsonParser().parse(resource).getAsJsonArray();
 	    for (int i = 0; i < jsonArray.size(); i++) {
 	        JsonElement str = jsonArray.get(i);
+	        //System.out.println(str);
 	        ScrapedEnablerCataloguePage obj = gson.fromJson(str, ScrapedEnablerCataloguePage.class);
 
 	        String url = obj.url;
@@ -42,7 +43,7 @@ public class Factory {
 	        String enablerName = obj.enabler.trim();
 	        
 	        
-	        //System.out.println("processing: " + enablerName);
+	        //System.out.println("processing: " + enablerName + " | meta " +  obj.meta);
 	        items.store(enablerName, obj);
 	        
 	        

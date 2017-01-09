@@ -10,7 +10,10 @@ public class EnablerDescription {
 	public String instances="";
 	public String terms_conditions="";
 	public String text="";
+	public String meta="";
 	public String url="";
+	
+	public boolean corruptMeta=false;
 	
 	
 	public String toString()

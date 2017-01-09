@@ -20,6 +20,7 @@ public static void main(String[] args) {
 	
 	
 	String fileID="items.json";
+	fileID ="items_meta.json";
 	ItemStorage items = Factory.getItems(fileID);
 	EnablerStorage enablers = new EnablerStorage();
 	Item2EnablerConverter converter = new Item2EnablerConverter();
@@ -32,6 +33,7 @@ public static void main(String[] args) {
 	}
 	
 	enablers.listEnablers();
+	System.out.println("number of ingested Enabler objects: " +  enablers.map.size());
 
 	EnablerDescription d = enablers.map.get((String)enablers.map.keySet().toArray()[0]);
 	//System.out.println("report for a random Enabler");

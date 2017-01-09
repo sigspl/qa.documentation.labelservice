@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.commons.io.FileUtils;
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
@@ -34,7 +36,8 @@ public class CatalogueComplianceMeasurement {
 	{
 		
 		double score = 0;
-		score = measureOverview() +
+		score = measureMeta() +
+				measureOverview() +
 				measureCreatingInstances() +
 				measureDownloads() +
 				measureDocumentation() +
@@ -223,6 +226,40 @@ public class CatalogueComplianceMeasurement {
 	public void setLogCollector(PlainMetricProtocol protocol) {
 		this.protocol=protocol;
 		
+	}
+	
+	
+	public int measureMeta()
+	{
+		int localScore = 0;
+		
+		attributes.put("catalogue.meta.chapter_mentioned", 5);
+		attributes.put("catalogue.meta.version_mentioned", 5);
+		attributes.put("catalogue.meta.valid_date", 10); // "recently updated e.g. not later than one year before from today  
+		attributes.put("catalogue.meta.valid_contact", 5); // contact person is mentioned
+		attributes.put("catalogue.meta.valid_email", 10); // there is a valid email address
+
+		int valid_emails = 0;
+		
+		Matcher m = Pattern.compile("[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+").matcher(enabler.meta);
+	    while (m.find()) {
+	        System.out.println(m.group());
+	        valid_emails++;
+	    }
+	    
+		if (valid_emails >0)
+		{
+			protocol.storeEntry(enabler.name, "10/10 points for a valid contact email");
+			localScore+=10;
+			
+		}
+		else
+			protocol.storeEntry(enabler.name, "0/10 points for providing a valid contact email");
+		
+		
+		
+		
+		return localScore;
 	}
 	
 	
