@@ -30,6 +30,8 @@ public class Item2EnablerConverter {
 		for (Iterator<ScrapedEnablerCataloguePage> iterator = collection.iterator(); iterator.hasNext();) {
 			ScrapedEnablerCataloguePage page = (ScrapedEnablerCataloguePage) iterator.next();
 			
+			
+			
 			if (page.url.length()<shortestUrl.length())
 				shortestUrl=page.url;
 			
@@ -92,7 +94,7 @@ public class Item2EnablerConverter {
 				{
 					//logger.info("*INFO* fuzzy matching for " + token + " as overview page for enabler " + enabler.name);
 					enabler.overview = page.text;
-					//logger.info("META: " + enabler.meta);
+					//logger.debug(enabler.name + " " + enabler.url +" " + "text: " + enabler.overview.length());
 					saveMeta(enabler, page);
 									
 				}
@@ -102,11 +104,15 @@ public class Item2EnablerConverter {
 					logger.warn("*WARN* unhandled case match /error: Enabler [" + enabler.name+ "] url ends with: " + token + " ; url=" + page.url + "; lev.distance=" + distance);
 				}
 				
+				if (enabler.overview.length()<10 )
+					logger.error("short overview text for " + page.url);
+				if (page.text.length()<10)
+					logger.warn("please double-check overview assigning for url " + enabler);
+				
 			}
 				
 			
-			
-		}
+		} // end for
 		
 		enabler.url=shortestUrl;
 		enabler.text = accumulatedText;

@@ -38,7 +38,10 @@ public class Factory {
 
 	        String url = obj.url;
 	        if (!urlOk (url))
+	        {
+	        	System.out.println("skip url: " + url);
 	        	continue;
+	        }
 	        
 	        String enablerName = obj.enabler.trim();
 	        
@@ -58,7 +61,7 @@ public class Factory {
 	
 	private static boolean urlOk(String url)
 	{
-		String match ="http://catalogue.fiware.org/enablers";
+		String match ="https://catalogue.fiware.org/enablers";
 		
 		if (url.endsWith("bundle-deployment")) return false;
 		

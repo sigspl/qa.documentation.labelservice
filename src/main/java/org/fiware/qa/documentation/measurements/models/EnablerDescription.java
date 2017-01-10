@@ -13,6 +13,7 @@ public class EnablerDescription {
 	public String meta="";
 	public String url="";
 	
+	
 	public boolean corruptMeta=false;
 	
 	

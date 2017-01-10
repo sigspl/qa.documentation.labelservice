@@ -28,10 +28,9 @@ public class PlainMetricProtocol {
 		if (log==null) return "no measurements recorded for " + enabler + " log was not initialized";
 		if (log.size()==0) return "no measurements recorded for " + enabler;
 		
-		System.out.println("log entries: " +  log.size() + " for enabler " + enabler);
-			
+		String header = "Measurement protocol for enabler " + enabler + "\n\n";
 				
-		return StringUtils.join(log,"\n");
+		return header + StringUtils.join(log,"\n");
 		
 		
 	}

@@ -1,1 +1,2 @@
+2017-01-09 added check for meta fields email and date
 2017-01-09 support ingesting of the new field "meta" in the Enabler data object; basic check for template consistency in this context.

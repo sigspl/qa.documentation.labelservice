@@ -1,7 +1,11 @@
 package org.fiware.qa.labels;
 
+import org.apache.log4j.Logger;
+
 public class SimpleLabeler {
 
+	final static Logger logger = Logger
+			.getLogger(SimpleLabeler.class);
 	
 	public String produceLabel (double value)
 	{
@@ -17,7 +21,7 @@ public class SimpleLabeler {
 		else if (value >=0.8 && value < 0.75 )
 			return Label.A_P;
 		
-		else if (value < 0.75 && value >=0.65)
+		else if (value >= 0.75 && value <0.65)
 			return Label.A;
 		
 		else if (value >=0.5 && value < 0.65 )
@@ -29,7 +33,8 @@ public class SimpleLabeler {
 		else if (value >=0 && value < 0.4 )
 			return Label.D;
 		
-					
+		logger.error("labeling error: "  + value);		
+		System.err.println("boo " +value);
 		return "*ERROR*";
 		
 	}
@@ -48,7 +53,7 @@ public class SimpleLabeler {
 		else if (value >=0.7 && value < 0.8 )
 			return Label.A_P;
 		
-		else if (value < 0.6 && value >=0.7)
+		else if (value >= 0.6 && value <0.7)
 			return Label.A;
 		
 		else if (value >=0.5 && value < 0.6 )
@@ -60,7 +65,8 @@ public class SimpleLabeler {
 		else if (value >=0 && value < 0.4 )
 			return Label.D;
 		
-					
+		logger.error("labeling error: "  + value);
+		
 		return "*ERROR*";
 		
 	}
