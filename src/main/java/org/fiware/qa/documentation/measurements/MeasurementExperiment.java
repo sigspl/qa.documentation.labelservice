@@ -85,8 +85,9 @@ public class MeasurementExperiment {
 			String key = sample.getKey();
 			Double value = sample.getValue();
 
+			// output of labels as CSV table
 			String entry = dquote(key) + Configuration.CSV_SEPARATOR + dquote(formatDouble(value))
-					+ ";" + sl.produceLinearLabel(value);
+					+ Configuration.CSV_SEPARATOR + dquote( sl.produceLinearLabel(value));
 			out = out + entry + "\n";
 
 			protocolTranscript += "\n++++++++\n\n";

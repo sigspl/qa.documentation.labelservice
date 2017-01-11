@@ -8,6 +8,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -36,7 +38,6 @@ public class CatalogueComplianceMeasurement {
 	public HashMap<String, Integer> attributes = new HashMap<String, Integer>();
 	private PlainMetricProtocol protocol;
 
-
 	final static Logger logger = Logger
 			.getLogger(CatalogueComplianceMeasurement.class);
 
@@ -61,10 +62,9 @@ public class CatalogueComplianceMeasurement {
 	private int measureOverview() {
 		int localScore = 0;
 
-		
-		if (enabler.overview.length()<10)
+		if (enabler.overview.length() < 10)
 			logger.warn("unassigned text for " + enabler.name);
-		
+
 		// attributable quality: overview contains string "What you get"
 		attributes.put("catalogue.overview.what", 10);
 		// System.out.println(enabler.overview);
@@ -109,7 +109,8 @@ public class CatalogueComplianceMeasurement {
 				1 - (Math.abs(1 - (Math.abs(L - median) / median))))));
 		attributes.put("catalogue.overview.optimal_length", 10);
 		protocol.storeEntry(enabler.name,
-				x+"/10 points for matching recommended median-based text length 1500 chars: length="+(int)L);
+				x + "/10 points for matching recommended median-based text length 1500 chars: length="
+						+ (int) L);
 
 		localScore += x; // could be 10 points for a text close to median, or
 							// 2-3 points for too long or too short text
@@ -124,30 +125,28 @@ public class CatalogueComplianceMeasurement {
 
 		// score sections following the template
 		String m, e = "";
-		int instancesScore =0;
-		
+		int instancesScore = 0;
+
 		m = "Deploying a dedicated GE instance based on an image";
 		e = "There are no images created for this GE implementation yet.";
 		attributes.put("catalogue.creating_instances.section1", 10);
-		if (matchRegex(enabler.creating_instances, m))
-		{
+		if (matchRegex(enabler.creating_instances, m)) {
 			instancesScore += 10;
-			
-		}
-		else if (matchRegex(enabler.creating_instances,e))
+
+		} else if (matchRegex(enabler.creating_instances, e))
 			instancesScore += 2;
 
 		m = "Deploying a dedicated GE instance in your own virtual infrastructure";
 		e = "There are no recipe created for this GE implementation yet.";
 		attributes.put("catalogue.creating_instances.section2", 10);
-		if (matchRegex (enabler.creating_instances,m))
+		if (matchRegex(enabler.creating_instances, m))
 			instancesScore += 10;
-		else if (matchRegex (enabler.creating_instances, e))
+		else if (matchRegex(enabler.creating_instances, e))
 			instancesScore += 2;
 
 		m = "Deploying a dedicated GE instance based on blueprint templates for this GE";
 		attributes.put("catalogue.creating_instances.section3", 10);
-		if (matchRegex (enabler.creating_instances, m))
+		if (matchRegex(enabler.creating_instances, m))
 			instancesScore += 10;
 
 		// Docker references. Additionally, this section must include references
@@ -155,19 +154,20 @@ public class CatalogueComplianceMeasurement {
 		// give 1 point for mentioning "Docker", 4 for mentioning
 		// "DockerHub"/"Docker Hub" and 5 for "Dockerfile"
 		attributes.put("catalogue.creating_instances.docker", 10);
-		if (matchRegex (enabler.creating_instances, "\\sDocker\\s"))
+		if (matchRegex(enabler.creating_instances, "\\sDocker\\s"))
 			instancesScore += 1;
-		if (matchRegex(enabler.creating_instances,"\\sDocker Hub\\s")
-				||matchRegex(enabler.creating_instances,"\\sDockerHub\\s"))
+		if (matchRegex(enabler.creating_instances, "\\sDocker Hub\\s")
+				|| matchRegex(enabler.creating_instances,
+						"\\sDockerHub\\s"))
 			instancesScore += 4;
 		if (matchRegex(enabler.creating_instances, "\\sDockerfile\\s"))
 			instancesScore += 5;
 
-		
-		protocol.storeEntry(enabler.name, + instancesScore + "/40 points for page creating_instances");
+		protocol.storeEntry(enabler.name, +instancesScore
+				+ "/40 points for page creating_instances");
 		localScore = localScore + instancesScore;
-		//if (localScore==0)
-		//	logger.warn("0 (zero) points for creating instances tab: \n" );
+		// if (localScore==0)
+		// logger.warn("0 (zero) points for creating instances tab: \n" );
 		return localScore;
 	}
 
@@ -186,9 +186,9 @@ public class CatalogueComplianceMeasurement {
 			if (matchRegex(enabler.documentation, (s[i])))
 				localScore += 3;
 		}
-		
-		protocol.storeEntry(enabler.name, + localScore + "/9 points for page documentation");
-		
+
+		protocol.storeEntry(enabler.name,
+				+localScore + "/9 points for page documentation");
 
 		return localScore;
 	}
@@ -198,17 +198,18 @@ public class CatalogueComplianceMeasurement {
 		// simplest measurable value is here to check the must have GitHub
 		// reference. (with more precision, for links to GitHub)
 		attributes.put("catalogue.downloads.github_mentioned", 10);
-		if (matchRegex(enabler.downloads.toLowerCase(),"github"))
+		if (matchRegex(enabler.downloads.toLowerCase(), "github"))
 			localScore += 10;
-		
-		protocol.storeEntry(enabler.name, + localScore + "/10 points for page downloads");
+
+		protocol.storeEntry(enabler.name,
+				+localScore + "/10 points for page downloads");
 		return localScore;
 	}
 
 	private int measureInstances() {
-		
+
 		// This Catalogue entry intentionally does not list any instance.
-		
+
 		return 0;
 	}
 
@@ -228,13 +229,13 @@ public class CatalogueComplianceMeasurement {
 
 	public void printAttributes() {
 		String out = "";
-		for (Iterator<String> iterator = attributes.keySet()
-				.iterator(); iterator.hasNext();) {
+		TreeSet<String> keys = new TreeSet<String>( attributes.keySet());
+		
+		for (Iterator<String> iterator = keys.iterator(); iterator.hasNext();) {
 			String n = (String) iterator.next();
 			Integer v = attributes.get(n);
 
-			
-			String entry = n + Configuration.CSV_SEPARATOR+ v;
+			String entry = n + Configuration.CSV_SEPARATOR + v;
 			out = out + entry + "\n";
 
 		}
@@ -258,7 +259,6 @@ public class CatalogueComplianceMeasurement {
 	public int measureMeta() {
 		int localScore = 0;
 
-		
 		attributes.put("catalogue.meta.chapter_mentioned", 5);
 		attributes.put("catalogue.meta.version_mentioned", 5);
 		attributes.put("catalogue.meta.valid_date", 10); // "recently updated
@@ -271,16 +271,14 @@ public class CatalogueComplianceMeasurement {
 		attributes.put("catalogue.meta.valid_email", 10); // there is a valid
 															// email address
 
-		
-		
-		
-		//System.out.println(enabler.meta);
-		
+		// System.out.println(enabler.meta);
+
 		/* check whether valid recent date is provided */
 		if (measureMeta_checkDate(enabler.meta))
-			localScore += 10;
+			localScore += 10; // this subroutine does the protocol record
 
-		
+		/* check for valid email */
+
 		int valid_emails = 0;
 
 		Matcher m = Pattern
@@ -299,6 +297,27 @@ public class CatalogueComplianceMeasurement {
 		} else
 			protocol.storeEntry(enabler.name,
 					"0/10 points for providing a valid contact email");
+
+		/* check for valid contact person mentioning */
+		boolean match_name = false;
+		String pattern = "Contact Person:\\s";
+		String[] lines = enabler.meta.split("\n");
+		for (int i = 0; i < lines.length; i++) {
+			if (matchRegex(lines[i], pattern)) {
+				// System.out.println(lines[i]);
+				String name = lines[i].replaceAll(pattern, "").trim();
+				if (name.length() > 2)
+					match_name = true;
+			}
+		}
+		if (match_name) {
+			protocol.storeEntry(enabler.name,
+					"10/10 points for mentioning a contact person");
+
+			localScore += 10;
+		} else
+			protocol.storeEntry(enabler.name,
+					"0/10 points for mentioning a contact person");
 
 		return localScore;
 	}
@@ -328,7 +347,8 @@ public class CatalogueComplianceMeasurement {
 		while (m2.find()) {
 
 			dateCounter++;
-			if (dateCounter>1) logger.warn("");
+			if (dateCounter > 1)
+				logger.warn("");
 
 			DateTime enablerDate = new DateTime(m2.group());
 			int diff = Days.daysBetween(enablerDate.toLocalDate(),
@@ -341,9 +361,10 @@ public class CatalogueComplianceMeasurement {
 								+ " days since last update.");
 
 			} else {
-				String msg = "enabler not updated since more than 1 year: " + diff
-						+ " days since last update (" + enablerDate.toString()+")";
-				
+				String msg = "enabler not updated since more than 1 year: "
+						+ diff + " days since last update ("
+						+ enablerDate.toString() + ")";
+
 				protocol.storeEntry(enabler.name,
 						"0/10 points for providing a valid recent date. "
 								+ msg);
@@ -355,17 +376,13 @@ public class CatalogueComplianceMeasurement {
 		return false;
 
 	}
-	
-	
-	public static boolean matchRegex (String subject, String regex)
-	{
-		
+
+	public static boolean matchRegex(String subject, String regex) {
+
 		Pattern p = Pattern.compile(regex);
 		Matcher m = p.matcher(subject);
 		return m.find();
-		
-	}
-	
 
+	}
 
 }

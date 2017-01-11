@@ -3,8 +3,9 @@
 
 Measurement protocol for enabler POI Data Provider
 
-10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 113 days since last update.
+10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 114 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 6/10 points for matching recommended median-based text length 1500 chars: length=961
@@ -15,8 +16,9 @@ Measurement protocol for enabler POI Data Provider
 
 Measurement protocol for enabler Privacy
 
-10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 161 days since last update.
+10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 162 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1550
@@ -27,8 +29,9 @@ Measurement protocol for enabler Privacy
 
 Measurement protocol for enabler Repository - Repository RI
 
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 105 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 106 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1188
@@ -39,8 +42,9 @@ Measurement protocol for enabler Repository - Repository RI
 
 Measurement protocol for enabler Business API Ecosystem - Biz Ecosystem RI
 
-10/10 points for providing a valid recent date: 2016-10-14T00:00:00.000+02:00 - 88 days since last update.
+10/10 points for providing a valid recent date: 2016-10-14T00:00:00.000+02:00 - 89 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 4/10 points for matching recommended median-based text length 1500 chars: length=2440
@@ -51,8 +55,9 @@ Measurement protocol for enabler Business API Ecosystem - Biz Ecosystem RI
 
 Measurement protocol for enabler Authorization PDP - AuthZForce
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1735
@@ -63,8 +68,9 @@ Measurement protocol for enabler Authorization PDP - AuthZForce
 
 Measurement protocol for enabler Augmented Reality
 
-10/10 points for providing a valid recent date: 2016-05-23T00:00:00.000+02:00 - 232 days since last update.
+10/10 points for providing a valid recent date: 2016-05-23T00:00:00.000+02:00 - 233 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=982
@@ -75,8 +81,9 @@ Measurement protocol for enabler Augmented Reality
 
 Measurement protocol for enabler 3D-UI-XML3D
 
-10/10 points for providing a valid recent date: 2016-04-28T00:00:00.000+02:00 - 257 days since last update.
+10/10 points for providing a valid recent date: 2016-04-28T00:00:00.000+02:00 - 258 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1479
@@ -87,8 +94,9 @@ Measurement protocol for enabler 3D-UI-XML3D
 
 Measurement protocol for enabler Synchronization - FiVES
 
-10/10 points for providing a valid recent date: 2016-10-31T00:00:00.000+01:00 - 71 days since last update.
+10/10 points for providing a valid recent date: 2016-10-31T00:00:00.000+01:00 - 72 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 6/10 points for matching recommended median-based text length 1500 chars: length=894
@@ -99,8 +107,9 @@ Measurement protocol for enabler Synchronization - FiVES
 
 Measurement protocol for enabler Store - WStore
 
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 105 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 106 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 3/10 points for matching recommended median-based text length 1500 chars: length=3409
@@ -111,8 +120,9 @@ Measurement protocol for enabler Store - WStore
 
 Measurement protocol for enabler Trustworthy Factory
 
-10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 343 days since last update.
+10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 344 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=981
@@ -123,8 +133,9 @@ Measurement protocol for enabler Trustworthy Factory
 
 Measurement protocol for enabler Complex Event Processing (CEP) - Proactive Technology Online
 
-10/10 points for providing a valid recent date: 2016-08-07T00:00:00.000+02:00 - 156 days since last update.
+10/10 points for providing a valid recent date: 2016-08-07T00:00:00.000+02:00 - 157 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1660
@@ -135,8 +146,9 @@ Measurement protocol for enabler Complex Event Processing (CEP) - Proactive Tech
 
 Measurement protocol for enabler 3DUI - WebTundra
 
-10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 106 days since last update.
+10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 107 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 3/10 points for matching recommended median-based text length 1500 chars: length=495
@@ -147,8 +159,9 @@ Measurement protocol for enabler 3DUI - WebTundra
 
 Measurement protocol for enabler Interface Designer
 
-10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 106 days since last update.
+10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 107 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1337
@@ -159,8 +172,9 @@ Measurement protocol for enabler Interface Designer
 
 Measurement protocol for enabler Data Visualization - SpagoBI
 
-10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 85 days since last update.
+10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 86 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=1088
@@ -171,8 +185,9 @@ Measurement protocol for enabler Data Visualization - SpagoBI
 
 Measurement protocol for enabler Policy Manager - Bosun
 
-10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 67 days since last update.
+10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 68 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 2/10 points for matching recommended median-based text length 1500 chars: length=2666
@@ -183,8 +198,9 @@ Measurement protocol for enabler Policy Manager - Bosun
 
 Measurement protocol for enabler Synchronization
 
-10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 113 days since last update.
+10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 114 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1446
@@ -195,8 +211,9 @@ Measurement protocol for enabler Synchronization
 
 Measurement protocol for enabler Marketplace - WMarket
 
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 105 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 106 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1462
@@ -207,8 +224,9 @@ Measurement protocol for enabler Marketplace - WMarket
 
 Measurement protocol for enabler FIWARE NGSI10 TestServer
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 658 days since last update (2015-03-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 659 days since last update (2015-03-24T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1434
@@ -219,8 +237,9 @@ Measurement protocol for enabler FIWARE NGSI10 TestServer
 
 Measurement protocol for enabler Cyber Security GE - CyberCAPTOR
 
-10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 343 days since last update.
+10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 344 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1133
@@ -231,8 +250,9 @@ Measurement protocol for enabler Cyber Security GE - CyberCAPTOR
 
 Measurement protocol for enabler IoT Discovery
 
-10/10 points for providing a valid recent date: 2016-10-26T00:00:00.000+02:00 - 76 days since last update.
+10/10 points for providing a valid recent date: 2016-10-26T00:00:00.000+02:00 - 77 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 5/10 points for matching recommended median-based text length 1500 chars: length=2276
@@ -243,8 +263,9 @@ Measurement protocol for enabler IoT Discovery
 
 Measurement protocol for enabler CKAN
 
-10/10 points for providing a valid recent date: 2016-03-30T00:00:00.000+02:00 - 286 days since last update.
+10/10 points for providing a valid recent date: 2016-03-30T00:00:00.000+02:00 - 287 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1758
@@ -255,8 +276,9 @@ Measurement protocol for enabler CKAN
 
 Measurement protocol for enabler GIS Data Provider - Geoserver/3D
 
-10/10 points for providing a valid recent date: 2016-04-27T00:00:00.000+02:00 - 258 days since last update.
+10/10 points for providing a valid recent date: 2016-04-27T00:00:00.000+02:00 - 259 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=1975
@@ -267,8 +289,9 @@ Measurement protocol for enabler GIS Data Provider - Geoserver/3D
 
 Measurement protocol for enabler Self Service Interfaces - Cloud Portal
 
-10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 161 days since last update.
+10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 162 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1752
@@ -279,8 +302,9 @@ Measurement protocol for enabler Self Service Interfaces - Cloud Portal
 
 Measurement protocol for enabler Application Mashup - Wirecloud
 
-10/10 points for providing a valid recent date: 2016-10-13T00:00:00.000+02:00 - 89 days since last update.
+10/10 points for providing a valid recent date: 2016-10-13T00:00:00.000+02:00 - 90 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 2/10 points for matching recommended median-based text length 1500 chars: length=3251
@@ -291,8 +315,9 @@ Measurement protocol for enabler Application Mashup - Wirecloud
 
 Measurement protocol for enabler Backend Device Management - IDAS
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 6/10 points for matching recommended median-based text length 1500 chars: length=3974
@@ -303,8 +328,9 @@ Measurement protocol for enabler Backend Device Management - IDAS
 
 Measurement protocol for enabler Stream-oriented - Kurento
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 6/10 points for matching recommended median-based text length 1500 chars: length=2128
@@ -315,8 +341,9 @@ Measurement protocol for enabler Stream-oriented - Kurento
 
 Measurement protocol for enabler IoT Data Edge Consolidation GE - Cepheus
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 5/10 points for matching recommended median-based text length 1500 chars: length=2238
@@ -327,8 +354,9 @@ Measurement protocol for enabler IoT Data Edge Consolidation GE - Cepheus
 
 Measurement protocol for enabler PEP Proxy - Wilma
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 6/10 points for matching recommended median-based text length 1500 chars: length=941
@@ -339,8 +367,9 @@ Measurement protocol for enabler PEP Proxy - Wilma
 
 Measurement protocol for enabler Identity Management - KeyRock
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 5/10 points for matching recommended median-based text length 1500 chars: length=2184
@@ -351,8 +380,9 @@ Measurement protocol for enabler Identity Management - KeyRock
 
 Measurement protocol for enabler Electronic Data Exchange - Domibus
 
-10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 85 days since last update.
+10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 86 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1703
@@ -363,8 +393,9 @@ Measurement protocol for enabler Electronic Data Exchange - Domibus
 
 Measurement protocol for enabler SoPeCo
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 658 days since last update (2015-03-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 659 days since last update (2015-03-24T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 6/10 points for matching recommended median-based text length 1500 chars: length=967
@@ -375,8 +406,9 @@ Measurement protocol for enabler SoPeCo
 
 Measurement protocol for enabler IoT Broker
 
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 81 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 82 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 1/10 points for matching recommended median-based text length 1500 chars: length=2919
@@ -387,8 +419,9 @@ Measurement protocol for enabler IoT Broker
 
 Measurement protocol for enabler Publish/Subscribe Context Broker - Orion Context Broker
 
-10/10 points for providing a valid recent date: 2016-12-09T00:00:00.000+01:00 - 32 days since last update.
+10/10 points for providing a valid recent date: 2016-12-09T00:00:00.000+01:00 - 33 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1569
@@ -399,8 +432,9 @@ Measurement protocol for enabler Publish/Subscribe Context Broker - Orion Contex
 
 Measurement protocol for enabler Cloud Messaging - AEON
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 411 days since last update (2015-11-26T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 412 days since last update (2015-11-26T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1784
@@ -411,8 +445,9 @@ Measurement protocol for enabler Cloud Messaging - AEON
 
 Measurement protocol for enabler 2D-UI
 
-10/10 points for providing a valid recent date: 2016-02-10T00:00:00.000+01:00 - 335 days since last update.
+10/10 points for providing a valid recent date: 2016-02-10T00:00:00.000+01:00 - 336 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1369
@@ -423,8 +458,9 @@ Measurement protocol for enabler 2D-UI
 
 Measurement protocol for enabler Virtual Characters
 
-10/10 points for providing a valid recent date: 2016-01-13T00:00:00.000+01:00 - 363 days since last update.
+10/10 points for providing a valid recent date: 2016-01-13T00:00:00.000+01:00 - 364 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1217
@@ -435,8 +471,9 @@ Measurement protocol for enabler Virtual Characters
 
 Measurement protocol for enabler Real Virtual Interaction
 
-10/10 points for providing a valid recent date: 2016-06-21T00:00:00.000+02:00 - 203 days since last update.
+10/10 points for providing a valid recent date: 2016-06-21T00:00:00.000+02:00 - 204 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=1940
@@ -447,8 +484,9 @@ Measurement protocol for enabler Real Virtual Interaction
 
 Measurement protocol for enabler Trace Analyzer
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1138 days since last update (2013-11-29T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1139 days since last update (2013-11-29T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1331
@@ -459,8 +497,9 @@ Measurement protocol for enabler Trace Analyzer
 
 Measurement protocol for enabler 2D/3D Capture
 
-10/10 points for providing a valid recent date: 2016-08-31T00:00:00.000+02:00 - 132 days since last update.
+10/10 points for providing a valid recent date: 2016-08-31T00:00:00.000+02:00 - 133 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 10/10 points for mentioning 'Why to get it'
 3/10 points for matching recommended median-based text length 1500 chars: length=2511
@@ -471,8 +510,9 @@ Measurement protocol for enabler 2D/3D Capture
 
 Measurement protocol for enabler Security Monitoring
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 496 days since last update (2015-09-02T00:00:00.000+02:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 497 days since last update (2015-09-02T00:00:00.000+02:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 -5/10 points for matching recommended median-based text length 1500 chars: length=6730
@@ -483,8 +523,9 @@ Measurement protocol for enabler Security Monitoring
 
 Measurement protocol for enabler Protocol Adapter - MR CoAP
 
-10/10 points for providing a valid recent date: 2016-11-16T00:00:00.000+01:00 - 55 days since last update.
+10/10 points for providing a valid recent date: 2016-11-16T00:00:00.000+01:00 - 56 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 7/10 points for matching recommended median-based text length 1500 chars: length=1032
@@ -495,8 +536,9 @@ Measurement protocol for enabler Protocol Adapter - MR CoAP
 
 Measurement protocol for enabler Revenue Settlement and Sharing System - RSS RI
 
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 105 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 106 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 6/10 points for matching recommended median-based text length 1500 chars: length=3937
@@ -507,8 +549,9 @@ Measurement protocol for enabler Revenue Settlement and Sharing System - RSS RI
 
 Measurement protocol for enabler Application Management - Murano
 
-10/10 points for providing a valid recent date: 2016-11-03T00:00:00.000+01:00 - 68 days since last update.
+10/10 points for providing a valid recent date: 2016-11-03T00:00:00.000+01:00 - 69 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 4/10 points for matching recommended median-based text length 1500 chars: length=2398
@@ -519,8 +562,9 @@ Measurement protocol for enabler Application Management - Murano
 
 Measurement protocol for enabler Object Storage GE - FIWARE Implementation
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 474 days since last update (2015-09-24T00:00:00.000+02:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 475 days since last update (2015-09-24T00:00:00.000+02:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1382
@@ -531,8 +575,9 @@ Measurement protocol for enabler Object Storage GE - FIWARE Implementation
 
 Measurement protocol for enabler Fast RTPS
 
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 105 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 106 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1222
@@ -543,8 +588,9 @@ Measurement protocol for enabler Fast RTPS
 
 Measurement protocol for enabler FIA Project Management Plugin
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1133 days since last update (2013-12-04T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1134 days since last update (2013-12-04T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=986
@@ -555,8 +601,9 @@ Measurement protocol for enabler FIA Project Management Plugin
 
 Measurement protocol for enabler Kiara Advanced Middleware
 
-10/10 points for providing a valid recent date: 2016-02-04T00:00:00.000+01:00 - 341 days since last update.
+10/10 points for providing a valid recent date: 2016-02-04T00:00:00.000+01:00 - 342 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 7/10 points for matching recommended median-based text length 1500 chars: length=1907
@@ -567,8 +614,9 @@ Measurement protocol for enabler Kiara Advanced Middleware
 
 Measurement protocol for enabler Unit Functional Testing Framework
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1136 days since last update (2013-12-01T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1137 days since last update (2013-12-01T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 10/10 points for matching recommended median-based text length 1500 chars: length=1539
@@ -579,8 +627,9 @@ Measurement protocol for enabler Unit Functional Testing Framework
 
 Measurement protocol for enabler PROSA
 
-10/10 points for providing a valid recent date: 2016-01-19T00:00:00.000+01:00 - 357 days since last update.
+10/10 points for providing a valid recent date: 2016-01-19T00:00:00.000+01:00 - 358 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 9/10 points for matching recommended median-based text length 1500 chars: length=1414
@@ -591,8 +640,9 @@ Measurement protocol for enabler PROSA
 
 Measurement protocol for enabler Software Deployment & Configuration - Sagitta
 
-10/10 points for providing a valid recent date: 2016-01-13T00:00:00.000+01:00 - 363 days since last update.
+10/10 points for providing a valid recent date: 2016-01-13T00:00:00.000+01:00 - 364 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 3/10 points for matching recommended median-based text length 1500 chars: length=3445
@@ -603,8 +653,9 @@ Measurement protocol for enabler Software Deployment & Configuration - Sagitta
 
 Measurement protocol for enabler Docker
 
-10/10 points for providing a valid recent date: 2016-08-11T00:00:00.000+02:00 - 152 days since last update.
+10/10 points for providing a valid recent date: 2016-08-11T00:00:00.000+02:00 - 153 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 0/10 points for matching recommended median-based text length 1500 chars: length=2931
@@ -615,8 +666,9 @@ Measurement protocol for enabler Docker
 
 Measurement protocol for enabler REST Client Generator
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 778 days since last update (2014-11-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 779 days since last update (2014-11-24T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 5/10 points for matching recommended median-based text length 1500 chars: length=682
@@ -627,8 +679,9 @@ Measurement protocol for enabler REST Client Generator
 
 Measurement protocol for enabler PaaS Manager - Pegasus
 
-10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 67 days since last update.
+10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 68 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 1/10 points for matching recommended median-based text length 1500 chars: length=2798
@@ -639,8 +692,9 @@ Measurement protocol for enabler PaaS Manager - Pegasus
 
 Measurement protocol for enabler FusionForge Connector
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 659 days since last update (2015-03-23T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 660 days since last update (2015-03-23T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 3/10 points for matching recommended median-based text length 1500 chars: length=514
@@ -651,8 +705,9 @@ Measurement protocol for enabler FusionForge Connector
 
 Measurement protocol for enabler Cloud Rendering
 
-10/10 points for providing a valid recent date: 2016-09-30T00:00:00.000+02:00 - 102 days since last update.
+10/10 points for providing a valid recent date: 2016-09-30T00:00:00.000+02:00 - 103 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 8/10 points for matching recommended median-based text length 1500 chars: length=1227
@@ -663,8 +718,9 @@ Measurement protocol for enabler Cloud Rendering
 
 Measurement protocol for enabler myForge
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 721 days since last update (2015-01-20T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 722 days since last update (2015-01-20T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 5/10 points for matching recommended median-based text length 1500 chars: length=800
@@ -675,8 +731,9 @@ Measurement protocol for enabler myForge
 
 Measurement protocol for enabler Network Information and Control - OFNIC
 
-10/10 points for providing a valid recent date: 2016-09-22T00:00:00.000+02:00 - 110 days since last update.
+10/10 points for providing a valid recent date: 2016-09-22T00:00:00.000+02:00 - 111 days since last update.
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 7/10 points for matching recommended median-based text length 1500 chars: length=4070
@@ -687,8 +744,9 @@ Measurement protocol for enabler Network Information and Control - OFNIC
 
 Measurement protocol for enabler IaaS GE - FIWARE Reference Implementation
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 411 days since last update (2015-11-26T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 412 days since last update (2015-11-26T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 0/10 points for missing 'Why to get  it'
 6/10 points for matching recommended median-based text length 1500 chars: length=834
@@ -699,8 +757,9 @@ Measurement protocol for enabler IaaS GE - FIWARE Reference Implementation
 
 Measurement protocol for enabler Monitoring GE - Sextant
 
-10/10 points for providing a valid recent date: 2016-06-14T00:00:00.000+02:00 - 210 days since last update.
+10/10 points for providing a valid recent date: 2016-06-14T00:00:00.000+02:00 - 211 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 0/10 points for matching recommended median-based text length 1500 chars: length=3039
@@ -711,8 +770,9 @@ Measurement protocol for enabler Monitoring GE - Sextant
 
 Measurement protocol for enabler BigData Analysis - Cosmos
 
-10/10 points for providing a valid recent date: 2016-12-12T00:00:00.000+01:00 - 29 days since last update.
+10/10 points for providing a valid recent date: 2016-12-12T00:00:00.000+01:00 - 30 days since last update.
 0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
 10/10 points for mentioning 'Why to get it'
 2/10 points for matching recommended median-based text length 1500 chars: length=2659
@@ -723,8 +783,9 @@ Measurement protocol for enabler BigData Analysis - Cosmos
 
 Measurement protocol for enabler 3D-UI-WebTundra with Synchronization server
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 692 days since last update (2015-02-18T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 693 days since last update (2015-02-18T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 0/10 points for matching recommended median-based text length 1500 chars: length=0
@@ -735,8 +796,9 @@ Measurement protocol for enabler 3D-UI-WebTundra with Synchronization server
 
 Measurement protocol for enabler Wirecloud Monetization
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 784 days since last update (2014-11-18T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 785 days since last update (2014-11-18T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 0/10 points for matching recommended median-based text length 1500 chars: length=0
@@ -747,8 +809,9 @@ Measurement protocol for enabler Wirecloud Monetization
 
 Measurement protocol for enabler 3D-UI-XML3D Geo Visualization
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 767 days since last update (2014-12-05T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 768 days since last update (2014-12-05T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 0/10 points for matching recommended median-based text length 1500 chars: length=0
@@ -759,8 +822,9 @@ Measurement protocol for enabler 3D-UI-XML3D Geo Visualization
 
 Measurement protocol for enabler Business Framework Consumption
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 784 days since last update (2014-11-18T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 785 days since last update (2014-11-18T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 0/10 points for matching recommended median-based text length 1500 chars: length=0
@@ -771,8 +835,9 @@ Measurement protocol for enabler Business Framework Consumption
 
 Measurement protocol for enabler Data Context Streams
 
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 778 days since last update (2014-11-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 779 days since last update (2014-11-24T00:00:00.000+01:00)
 10/10 points for a valid contact email
+10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
 0/10 points for missing 'Why to get  it'
 0/10 points for matching recommended median-based text length 1500 chars: length=0
