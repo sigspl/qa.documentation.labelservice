@@ -18,6 +18,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
+import org.fiware.qa.documentation.measurements.util.StringServices;
 //import com.joestelmach.natty.*;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
@@ -130,23 +131,23 @@ public class CatalogueComplianceMeasurement {
 		m = "Deploying a dedicated GE instance based on an image";
 		e = "There are no images created for this GE implementation yet.";
 		attributes.put("catalogue.creating_instances.section1", 10);
-		if (matchRegex(enabler.creating_instances, m)) {
+		if (StringServices.matchRegex(enabler.creating_instances, m)) {
 			instancesScore += 10;
 
-		} else if (matchRegex(enabler.creating_instances, e))
+		} else if (StringServices.matchRegex(enabler.creating_instances, e))
 			instancesScore += 2;
 
 		m = "Deploying a dedicated GE instance in your own virtual infrastructure";
 		e = "There are no recipe created for this GE implementation yet.";
 		attributes.put("catalogue.creating_instances.section2", 10);
-		if (matchRegex(enabler.creating_instances, m))
+		if (StringServices.matchRegex(enabler.creating_instances, m))
 			instancesScore += 10;
-		else if (matchRegex(enabler.creating_instances, e))
+		else if (StringServices.matchRegex(enabler.creating_instances, e))
 			instancesScore += 2;
 
 		m = "Deploying a dedicated GE instance based on blueprint templates for this GE";
 		attributes.put("catalogue.creating_instances.section3", 10);
-		if (matchRegex(enabler.creating_instances, m))
+		if (StringServices.matchRegex(enabler.creating_instances, m))
 			instancesScore += 10;
 
 		// Docker references. Additionally, this section must include references
@@ -154,13 +155,13 @@ public class CatalogueComplianceMeasurement {
 		// give 1 point for mentioning "Docker", 4 for mentioning
 		// "DockerHub"/"Docker Hub" and 5 for "Dockerfile"
 		attributes.put("catalogue.creating_instances.docker", 10);
-		if (matchRegex(enabler.creating_instances, "\\sDocker\\s"))
+		if (StringServices.matchRegex(enabler.creating_instances, "\\sDocker\\s"))
 			instancesScore += 1;
-		if (matchRegex(enabler.creating_instances, "\\sDocker Hub\\s")
-				|| matchRegex(enabler.creating_instances,
+		if (StringServices.matchRegex(enabler.creating_instances, "\\sDocker Hub\\s")
+				|| StringServices.matchRegex(enabler.creating_instances,
 						"\\sDockerHub\\s"))
 			instancesScore += 4;
-		if (matchRegex(enabler.creating_instances, "\\sDockerfile\\s"))
+		if (StringServices.matchRegex(enabler.creating_instances, "\\sDockerfile\\s"))
 			instancesScore += 5;
 
 		protocol.storeEntry(enabler.name, +instancesScore
@@ -183,7 +184,7 @@ public class CatalogueComplianceMeasurement {
 		attributes.put("catalogue.documentation", 9);
 
 		for (int i = 0; i < s.length; i++) {
-			if (matchRegex(enabler.documentation, (s[i])))
+			if (StringServices.matchRegex(enabler.documentation, (s[i])))
 				localScore += 3;
 		}
 
@@ -198,31 +199,75 @@ public class CatalogueComplianceMeasurement {
 		// simplest measurable value is here to check the must have GitHub
 		// reference. (with more precision, for links to GitHub)
 		attributes.put("catalogue.downloads.github_mentioned", 10);
-		if (matchRegex(enabler.downloads.toLowerCase(), "github"))
+		if (StringServices.matchRegex(enabler.downloads.toLowerCase(), "github"))
 			localScore += 10;
 
 		protocol.storeEntry(enabler.name,
 				+localScore + "/10 points for page downloads");
 		return localScore;
 	}
-
+	
+	
 	private int measureInstances() {
 
-		// This Catalogue entry intentionally does not list any instance.
+		// 0p This Catalogue entry intentionally does not list any instance.
+		// 5 p for linking at least one instance (future: +5 per working instance, e.g. -10 p for not available instance)
+		// 
 
 		return 0;
 	}
 
 	private int measureTermsConditions() {
-		return 0;
+		
+		//System.out.println(enabler.name + " : " + new String(new char[60-enabler.name.length()]).replace("\0", " ")   +enabler.terms_conditions.replaceAll("\n", " "));
+		String[] relevantNGrams =
+			{
+					"PPP Projects being part of the FIWARE PPP program can use",
+					"Experimentation/testing within the scope of the FIWARE PPP Projects",
+					"under the conditions established in the FIWARE PPP Collaboration Agreement that they should have signed as beneficiaries of the program",
+					"testing and experimentation of applications using: experimental instances deployed",
+					"versions of the software downloaded from resources",
+					"open to negotiate bi-lateral commercial",
+					"External Availability Software associated",
+					"product software in order to fix a bug or incorporate enhancements",
+					"considered a derivative work of the product",
+					"Please check the specific terms and conditions linked",
+					"Please note that software derived as a result of modifying the source code",
+					"Experimental instances deployed on the FIWARE Open Innovation Lab",
+					"open source license",
+					"entitled to offer support services to third parties",
+					"versions of the software downloaded from resources",
+					"otherwise unmodified version of existing software", 
+					"current strategy plans contemplate the commercialization",
+					"provided as open source",
+					"within the scope",
+					"allows maximum reuse, contribution"
+					
+			};
+		int localScore=0;
+		for (int i = 0; i < relevantNGrams.length; i++) {
+			if (StringServices.matchRegex(enabler.terms_conditions, relevantNGrams[i]))
+			{
+				localScore++;
+			}
+		}
+		
+		if (localScore<3) logger.warn("ver low ngram score for Terms & Conditions:" + localScore + " for " + enabler.name);
+		
+		attributes.put("catalogue.terms_conditions.relevant_ngrams", relevantNGrams.length);
+		protocol.storeEntry(enabler.name,
+				+localScore + "/"+ relevantNGrams.length+ " points for matching relevant N-Grams on the Terms&Conditions page");
+		return localScore;
 	}
 
 	private void calculateMaximumPoints() {
 		int sum = 0;
+		//logger.debug("print attributes and points");
 		for (int f : attributes.values()) {
+			//logger.debug("adding " +f);
 			sum += f;
 		}
-		// System.out.println("registered max points for Catalogue: " + sum);
+		//logger.info("registered max points for Catalogue: " + sum);
 		maximumPoints = sum;
 
 	}
@@ -273,6 +318,45 @@ public class CatalogueComplianceMeasurement {
 
 		// System.out.println(enabler.meta);
 
+		/* check chapter */
+		String chapter = StringServices.extractValue(enabler.meta, "Chapter:\\s");
+		if (chapter == null  || chapter == "")
+		{
+			protocol.storeEntry(enabler.name, "0/5 points for providing a valid chapter name (no chapter provided).");
+		}
+		else if (Configuration.FIWARE_CHAPTERS.contains(chapter))
+		{
+			protocol.storeEntry(enabler.name, "5/5 points for providing a valid chapter name.");
+		}
+		else
+		{
+			protocol.storeEntry(enabler.name, "0/5 points for providing a valid chapter name. -> unknown chapter: " + chapter);
+			
+		}
+		
+		/* check version */
+
+		String version = StringServices.extractValue(enabler.meta, "Version:\\s");
+		if (version == null  || version == "")
+		{
+			protocol.storeEntry(enabler.name, "0/5 points for providing a valid software release version (no version at all could be identified).");
+		}
+		else if (StringServices.matchSoftwareVersion(version))
+		{
+			protocol.storeEntry(enabler.name, "5/5 points for providing a valid software release version.");
+		}
+		else
+		{
+			protocol.storeEntry(enabler.name, "1/5 points for providing a valid software release version (some version seems to be provided but not in valid format \"A.B.C\": " +  version + ")");
+			
+		}
+		
+		
+		
+		//logger.info(" MATCHED:" + version + "/ "  + StringServices.matchSoftwareVersion(version));
+		
+		
+		
 		/* check whether valid recent date is provided */
 		if (measureMeta_checkDate(enabler.meta))
 			localScore += 10; // this subroutine does the protocol record
@@ -303,7 +387,7 @@ public class CatalogueComplianceMeasurement {
 		String pattern = "Contact Person:\\s";
 		String[] lines = enabler.meta.split("\n");
 		for (int i = 0; i < lines.length; i++) {
-			if (matchRegex(lines[i], pattern)) {
+			if (StringServices.matchRegex(lines[i], pattern)) {
 				// System.out.println(lines[i]);
 				String name = lines[i].replaceAll(pattern, "").trim();
 				if (name.length() > 2)
@@ -377,12 +461,8 @@ public class CatalogueComplianceMeasurement {
 
 	}
 
-	public static boolean matchRegex(String subject, String regex) {
-
-		Pattern p = Pattern.compile(regex);
-		Matcher m = p.matcher(subject);
-		return m.find();
-
-	}
+	
+	
+	
 
 }

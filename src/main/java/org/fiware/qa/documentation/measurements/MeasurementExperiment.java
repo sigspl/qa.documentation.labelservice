@@ -15,6 +15,7 @@ import java.util.TreeMap;
 import org.apache.commons.io.FileUtils;
 import org.fiware.qa.documentation.measurements.ingest.EnablerStorage;
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
+import org.fiware.qa.documentation.measurements.util.StringServices;
 import org.fiware.qa.documentation.measurements.util.ValueComparator;
 import org.fiware.qa.labels.SimpleLabeler;
 
@@ -80,7 +81,12 @@ public class MeasurementExperiment {
 		sorted_map.putAll(measurementResults);
 
 		SimpleLabeler sl = new SimpleLabeler();
-		String protocolTranscript = "";
+		String protocolTranscript = "Catalogue compliance guide check transcript \nDetails: https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Guidelines_on_what_to_write\n";
+		protocolTranscript += "\n\n *** ATTENTION ***: Strikingly low scores might be affected by https://jira.fiware.org/browse/CAT-346 or some other error either in Catalogue or this software! Your feedback is greatly appreciated - just post an issue in this GitHub repo!.\n\n";
+		protocolTranscript+="Date of measurement procedure: " + StringServices.getTodayIsoDate() + "\n";
+		protocolTranscript+="Used Catalogue online data scraped as of: " + StringServices.getDataFileDate()+"\n\n\n\n";
+		
+		
 		for (Map.Entry<String, Double> sample : sorted_map.entrySet()) {
 			String key = sample.getKey();
 			Double value = sample.getValue();
@@ -98,7 +104,7 @@ public class MeasurementExperiment {
 			 * html.generate();
 			 */
 
-			System.out.println(protocolTranscript);
+			//System.out.println(protocolTranscript);
 
 		} // end for
 		try {
@@ -118,7 +124,7 @@ public class MeasurementExperiment {
 			FileUtils.writeStringToFile(
 					new File(Configuration.ENABLERS_DATA_FILENAME), out);
 		} catch (IOException e) {
-			// TODO add log entry
+			
 			e.printStackTrace();
 		}
 

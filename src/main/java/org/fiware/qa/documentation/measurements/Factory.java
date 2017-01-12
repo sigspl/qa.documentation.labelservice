@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.fiware.qa.documentation.measurements.ingest.ItemStorage;
 import org.fiware.qa.documentation.measurements.models.ScrapedEnablerCataloguePage;
 
@@ -15,6 +16,8 @@ import com.google.gson.JsonParser;
 
 public class Factory {
 	
+	final static Logger logger = Logger
+			.getLogger(Factory.class);
 	
 	
 	public static ItemStorage getItems(String fileID)
@@ -39,7 +42,7 @@ public class Factory {
 	        String url = obj.url;
 	        if (!urlOk (url))
 	        {
-	        	System.out.println("skip url: " + url);
+	        	logger.debug("skip url: " + url);
 	        	continue;
 	        }
 	        

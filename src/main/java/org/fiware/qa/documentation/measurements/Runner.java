@@ -19,8 +19,8 @@ public static void main(String[] args) {
 	// information retrieval
 	
 	
-	String fileID="items.json";
-	fileID ="items_meta.json";
+	String fileID=Configuration.INPUT_CATALOGUE_DATA;
+	
 	ItemStorage items = Factory.getItems(fileID);
 	EnablerStorage enablers = new EnablerStorage();
 	Item2EnablerConverter converter = new Item2EnablerConverter();
