@@ -15,15 +15,17 @@ import java.util.TreeMap;
 import org.apache.commons.io.FileUtils;
 import org.fiware.qa.documentation.measurements.ingest.EnablerStorage;
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
-import org.fiware.qa.documentation.measurements.util.StringServices;
-import org.fiware.qa.documentation.measurements.util.ValueComparator;
-import org.fiware.qa.labels.SimpleLabeler;
 
-import reporting.HTMLReport;
+import org.fiware.qa.documentation.measurements.util.ValueComparator;
+import org.sigspl.analysis.commons.labeling.SimpleLabeler;
+import org.sigspl.analysis.commons.util.MathUtil;
+import org.sigspl.analysis.commons.util.StringUtil;
+
+
 
 public class MeasurementExperiment {
 
-	public static final String ESC_DQUOTE = "\"";
+	
 
 	private EnablerStorage enablers;
 	private HashMap<String, Double> measurementResults = new HashMap<String, Double>();
@@ -54,10 +56,10 @@ public class MeasurementExperiment {
 
 	public void executeAll() {
 		String out = "";
-		for (Iterator<String> iterator = enablers.map.keySet()
+		for (Iterator<String> iterator = enablers.assets.keySet()
 				.iterator(); iterator.hasNext();) {
 			String n = (String) iterator.next();
-			EnablerDescription e = enablers.map.get(n);
+			EnablerDescription e = enablers.assets.get(n);
 
 			CatalogueComplianceMeasurement c = new CatalogueComplianceMeasurement();
 			c.setEnabler(e);
@@ -70,7 +72,7 @@ public class MeasurementExperiment {
 			 * "\n";
 			 */
 			measurementResults.put(e.name,
-					round(score, Configuration.DECIMAL_PRECISION));
+					MathUtil.round(score, Configuration.DECIMAL_PRECISION));
 
 		}
 
@@ -83,8 +85,8 @@ public class MeasurementExperiment {
 		SimpleLabeler sl = new SimpleLabeler();
 		String protocolTranscript = "Catalogue compliance guide check transcript \nDetails: https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Guidelines_on_what_to_write\n";
 		protocolTranscript += "\n\n *** ATTENTION ***: Strikingly low scores might be affected by https://jira.fiware.org/browse/CAT-346 or some other error either in Catalogue or this software! Your feedback is greatly appreciated - just post an issue in this GitHub repo!.\n\n";
-		protocolTranscript+="Date of measurement procedure: " + StringServices.getTodayIsoDate() + "\n";
-		protocolTranscript+="Used Catalogue online data scraped as of: " + StringServices.getDataFileDate()+"\n\n\n\n";
+		protocolTranscript+="Date of measurement procedure: " + StringUtil.getTodayIsoDate() + "\n";
+		protocolTranscript+="Used Catalogue online data scraped as of: " + StringUtil.getFileIsoDateLastModified(Configuration.INPUT_CATALOGUE_DATA)+"\n\n\n\n";
 		
 		
 		for (Map.Entry<String, Double> sample : sorted_map.entrySet()) {
@@ -92,8 +94,8 @@ public class MeasurementExperiment {
 			Double value = sample.getValue();
 
 			// output of labels as CSV table
-			String entry = dquote(key) + Configuration.CSV_SEPARATOR + dquote(formatDouble(value))
-					+ Configuration.CSV_SEPARATOR + dquote( sl.produceLinearLabel(value));
+			String entry = StringUtil.dquote(key) + Configuration.CSV_SEPARATOR + StringUtil.dquote(MathUtil.formatDouble(value))
+					+ Configuration.CSV_SEPARATOR + StringUtil.dquote( sl.produceLinearLabel(value));
 			out = out + entry + "\n";
 
 			protocolTranscript += "\n++++++++\n\n";
@@ -130,24 +132,6 @@ public class MeasurementExperiment {
 
 	}
 
-	public static double round(double value, int places) {
-		if (places < 0)
-			throw new IllegalArgumentException();
-
-		BigDecimal bd = new BigDecimal(value);
-		bd = bd.setScale(places, RoundingMode.CEILING);
-
-		return bd.doubleValue();
-	}
-
-	public static String formatDouble(double d) {
-		NumberFormat nf = NumberFormat.getNumberInstance(Locale.GERMAN);
-		DecimalFormat df = (DecimalFormat) nf;
-		return df.format(d);
-	}
-
-	private String dquote(String x) {
-		return ESC_DQUOTE + x + ESC_DQUOTE;
-	}
+	
 
 }

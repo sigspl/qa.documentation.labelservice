@@ -13,13 +13,13 @@ import org.fiware.qa.documentation.measurements.util.LevenshteinDistance;
 
 
 
-public class Item2EnablerConverter {
+public class EnablerPartsAssembler {
 
 	private int acceptableStringDistance_D1=10;
 
-	final static Logger logger = Logger.getLogger(Item2EnablerConverter.class);
+	final static Logger logger = Logger.getLogger(EnablerPartsAssembler.class);
 	
-	public EnablerDescription convert (List<ScrapedEnablerCataloguePage> collection)
+	public EnablerDescription assemble (List<ScrapedEnablerCataloguePage> collection)
 	{
 		
 		EnablerDescription enabler = new EnablerDescription();

@@ -23,19 +23,19 @@ public static void main(String[] args) {
 	
 	ItemStorage items = Factory.getItems(fileID);
 	EnablerStorage enablers = new EnablerStorage();
-	Item2EnablerConverter converter = new Item2EnablerConverter();
+	EnablerPartsAssembler assembler = new EnablerPartsAssembler();
 	
 	for (Iterator iterator = items.map.keySet().iterator(); iterator.hasNext();) {
 		String enablerName = (String) iterator.next();
 		List<ScrapedEnablerCataloguePage> pages = items.map.get(enablerName);
-		enablers.store(enablerName, converter.convert(pages) );
+		enablers.store(enablerName, assembler.assemble(pages) );
 		
 	}
 	
 	enablers.listEnablers();
-	System.out.println("number of ingested Enabler objects: " +  enablers.map.size());
+	System.out.println("number of ingested Enabler objects: " +  enablers.assets.size());
 
-	EnablerDescription d = enablers.map.get((String)enablers.map.keySet().toArray()[0]);
+	//EnablerDescription d = enablers.assets.get((String)enablers.assets.keySet().toArray()[0]);
 	//System.out.println("report for a random Enabler");
 	//d.report();
 	

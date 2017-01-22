@@ -4,7 +4,7 @@ Details: https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Workin
 
  *** ATTENTION ***: Strikingly low scores might be affected by https://jira.fiware.org/browse/CAT-346 or some other error either in Catalogue or this software! Your feedback is greatly appreciated - just post an issue in this GitHub repo!.
 
-Date of measurement procedure: 2017-01-12
+Date of measurement procedure: 2017-01-16
 Used Catalogue online data scraped as of: 2017-01-10
 
 
@@ -16,7 +16,7 @@ Measurement protocol for enabler POI Data Provider
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 115 days since last update.
+10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 119 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -32,7 +32,7 @@ Measurement protocol for enabler Business API Ecosystem - Biz Ecosystem RI
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-14T00:00:00.000+02:00 - 90 days since last update.
+10/10 points for providing a valid recent date: 2016-10-14T00:00:00.000+02:00 - 94 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -48,7 +48,7 @@ Measurement protocol for enabler Store - WStore
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 107 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 111 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -64,7 +64,7 @@ Measurement protocol for enabler 3D-UI-XML3D
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-04-28T00:00:00.000+02:00 - 259 days since last update.
+10/10 points for providing a valid recent date: 2016-04-28T00:00:00.000+02:00 - 263 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -80,7 +80,7 @@ Measurement protocol for enabler Privacy
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 163 days since last update.
+10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 167 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -96,7 +96,7 @@ Measurement protocol for enabler Authorization PDP - AuthZForce
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -112,7 +112,7 @@ Measurement protocol for enabler Repository - Repository RI
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 107 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 111 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -128,7 +128,7 @@ Measurement protocol for enabler Synchronization - FiVES
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": FIWARE - 5.4.3)
-10/10 points for providing a valid recent date: 2016-10-31T00:00:00.000+01:00 - 73 days since last update.
+10/10 points for providing a valid recent date: 2016-10-31T00:00:00.000+01:00 - 77 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -144,7 +144,7 @@ Measurement protocol for enabler Application Mashup - Wirecloud
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-13T00:00:00.000+02:00 - 91 days since last update.
+10/10 points for providing a valid recent date: 2016-10-13T00:00:00.000+02:00 - 95 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -160,7 +160,7 @@ Measurement protocol for enabler Augmented Reality
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-10/10 points for providing a valid recent date: 2016-05-23T00:00:00.000+02:00 - 234 days since last update.
+10/10 points for providing a valid recent date: 2016-05-23T00:00:00.000+02:00 - 238 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -176,7 +176,7 @@ Measurement protocol for enabler Trustworthy Factory
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 345 days since last update.
+10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 349 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -192,7 +192,7 @@ Measurement protocol for enabler IoT Discovery
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Release 5)
-10/10 points for providing a valid recent date: 2016-10-26T00:00:00.000+02:00 - 78 days since last update.
+10/10 points for providing a valid recent date: 2016-10-26T00:00:00.000+02:00 - 82 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -208,7 +208,7 @@ Measurement protocol for enabler Interface Designer
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 108 days since last update.
+10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 112 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -224,7 +224,7 @@ Measurement protocol for enabler Policy Manager - Bosun
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 69 days since last update.
+10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 73 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -240,7 +240,7 @@ Measurement protocol for enabler Complex Event Processing (CEP) - Proactive Tech
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Version 5)
-10/10 points for providing a valid recent date: 2016-08-07T00:00:00.000+02:00 - 158 days since last update.
+10/10 points for providing a valid recent date: 2016-08-07T00:00:00.000+02:00 - 162 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -256,7 +256,7 @@ Measurement protocol for enabler 3DUI - WebTundra
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 108 days since last update.
+10/10 points for providing a valid recent date: 2016-09-26T00:00:00.000+02:00 - 112 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -272,7 +272,7 @@ Measurement protocol for enabler Backend Device Management - IDAS
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -288,7 +288,7 @@ Measurement protocol for enabler Data Visualization - SpagoBI
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 87 days since last update.
+10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 91 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -304,7 +304,7 @@ Measurement protocol for enabler GIS Data Provider - Geoserver/3D
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-04-27T00:00:00.000+02:00 - 260 days since last update.
+10/10 points for providing a valid recent date: 2016-04-27T00:00:00.000+02:00 - 264 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -320,7 +320,7 @@ Measurement protocol for enabler Marketplace - WMarket
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 107 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 111 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -336,7 +336,7 @@ Measurement protocol for enabler FIWARE NGSI10 TestServer
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 660 days since last update (2015-03-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 664 days since last update (2015-03-24T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -352,7 +352,7 @@ Measurement protocol for enabler Identity Management - KeyRock
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -368,7 +368,7 @@ Measurement protocol for enabler Synchronization
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 115 days since last update.
+10/10 points for providing a valid recent date: 2016-09-19T00:00:00.000+02:00 - 119 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -384,7 +384,7 @@ Measurement protocol for enabler Stream-oriented - Kurento
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -400,7 +400,7 @@ Measurement protocol for enabler IoT Data Edge Consolidation GE - Cepheus
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -416,7 +416,7 @@ Measurement protocol for enabler Self Service Interfaces - Cloud Portal
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 163 days since last update.
+10/10 points for providing a valid recent date: 2016-08-02T00:00:00.000+02:00 - 167 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -432,7 +432,7 @@ Measurement protocol for enabler CKAN
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-03-30T00:00:00.000+02:00 - 288 days since last update.
+10/10 points for providing a valid recent date: 2016-03-30T00:00:00.000+02:00 - 292 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -448,7 +448,7 @@ Measurement protocol for enabler Publish/Subscribe Context Broker - Orion Contex
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Latest)
-10/10 points for providing a valid recent date: 2016-12-09T00:00:00.000+01:00 - 34 days since last update.
+10/10 points for providing a valid recent date: 2016-12-09T00:00:00.000+01:00 - 38 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -464,7 +464,7 @@ Measurement protocol for enabler Cyber Security GE - CyberCAPTOR
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": R4)
-10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 345 days since last update.
+10/10 points for providing a valid recent date: 2016-02-02T00:00:00.000+01:00 - 349 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -480,7 +480,7 @@ Measurement protocol for enabler PEP Proxy - Wilma
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -496,7 +496,7 @@ Measurement protocol for enabler SoPeCo
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 660 days since last update (2015-03-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 664 days since last update (2015-03-24T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -512,7 +512,7 @@ Measurement protocol for enabler Electronic Data Exchange - Domibus
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 87 days since last update.
+10/10 points for providing a valid recent date: 2016-10-17T00:00:00.000+02:00 - 91 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -528,7 +528,7 @@ Measurement protocol for enabler Real Virtual Interaction
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-10/10 points for providing a valid recent date: 2016-06-21T00:00:00.000+02:00 - 205 days since last update.
+10/10 points for providing a valid recent date: 2016-06-21T00:00:00.000+02:00 - 209 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -544,7 +544,7 @@ Measurement protocol for enabler 2D-UI
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-10/10 points for providing a valid recent date: 2016-02-10T00:00:00.000+01:00 - 337 days since last update.
+10/10 points for providing a valid recent date: 2016-02-10T00:00:00.000+01:00 - 341 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -560,7 +560,7 @@ Measurement protocol for enabler IoT Broker
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 83 days since last update.
+10/10 points for providing a valid recent date: 2016-10-21T00:00:00.000+02:00 - 87 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -576,7 +576,7 @@ Measurement protocol for enabler Cloud Messaging - AEON
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 413 days since last update (2015-11-26T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 417 days since last update (2015-11-26T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -592,7 +592,7 @@ Measurement protocol for enabler Virtual Characters
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-01-13T00:00:00.000+01:00 - 365 days since last update.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 369 days since last update (2016-01-13T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -608,7 +608,7 @@ Measurement protocol for enabler 2D/3D Capture
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-08-31T00:00:00.000+02:00 - 134 days since last update.
+10/10 points for providing a valid recent date: 2016-08-31T00:00:00.000+02:00 - 138 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -624,7 +624,7 @@ Measurement protocol for enabler Trace Analyzer
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1140 days since last update (2013-11-29T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1144 days since last update (2013-11-29T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -640,7 +640,7 @@ Measurement protocol for enabler Security Monitoring
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 498 days since last update (2015-09-02T00:00:00.000+02:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 502 days since last update (2015-09-02T00:00:00.000+02:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -656,7 +656,7 @@ Measurement protocol for enabler Revenue Settlement and Sharing System - RSS RI
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 107 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 111 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -672,7 +672,7 @@ Measurement protocol for enabler Protocol Adapter - MR CoAP
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-10/10 points for providing a valid recent date: 2016-11-16T00:00:00.000+01:00 - 57 days since last update.
+10/10 points for providing a valid recent date: 2016-11-16T00:00:00.000+01:00 - 61 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -688,7 +688,7 @@ Measurement protocol for enabler Application Management - Murano
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-11-03T00:00:00.000+01:00 - 70 days since last update.
+10/10 points for providing a valid recent date: 2016-11-03T00:00:00.000+01:00 - 74 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -704,7 +704,7 @@ Measurement protocol for enabler Kiara Advanced Middleware
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Advanced middleware and interfaces to Network and Devices
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-02-04T00:00:00.000+01:00 - 343 days since last update.
+10/10 points for providing a valid recent date: 2016-02-04T00:00:00.000+01:00 - 347 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -720,7 +720,7 @@ Measurement protocol for enabler Object Storage GE - FIWARE Implementation
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 476 days since last update (2015-09-24T00:00:00.000+02:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 480 days since last update (2015-09-24T00:00:00.000+02:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -736,7 +736,7 @@ Measurement protocol for enabler Unit Functional Testing Framework
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1138 days since last update (2013-12-01T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1142 days since last update (2013-12-01T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -752,7 +752,7 @@ Measurement protocol for enabler Fast RTPS
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Advanced middleware and interfaces to Network and Devices
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 107 days since last update.
+10/10 points for providing a valid recent date: 2016-09-27T00:00:00.000+02:00 - 111 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -768,7 +768,7 @@ Measurement protocol for enabler PROSA
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-01-19T00:00:00.000+01:00 - 359 days since last update.
+10/10 points for providing a valid recent date: 2016-01-19T00:00:00.000+01:00 - 363 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -784,7 +784,7 @@ Measurement protocol for enabler FIA Project Management Plugin
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1135 days since last update (2013-12-04T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1139 days since last update (2013-12-04T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -800,7 +800,7 @@ Measurement protocol for enabler Network Information and Control - OFNIC
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Advanced middleware and interfaces to Network and Devices
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": v2.1)
-10/10 points for providing a valid recent date: 2016-09-22T00:00:00.000+02:00 - 112 days since last update.
+10/10 points for providing a valid recent date: 2016-09-22T00:00:00.000+02:00 - 116 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -816,7 +816,7 @@ Measurement protocol for enabler Software Deployment & Configuration - Sagitta
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-01-13T00:00:00.000+01:00 - 365 days since last update.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 369 days since last update (2016-01-13T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -832,7 +832,7 @@ Measurement protocol for enabler REST Client Generator
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 780 days since last update (2014-11-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 784 days since last update (2014-11-24T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -848,7 +848,7 @@ Measurement protocol for enabler PaaS Manager - Pegasus
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 69 days since last update.
+10/10 points for providing a valid recent date: 2016-11-04T00:00:00.000+01:00 - 73 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -864,7 +864,7 @@ Measurement protocol for enabler FusionForge Connector
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 661 days since last update (2015-03-23T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 665 days since last update (2015-03-23T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -880,7 +880,7 @@ Measurement protocol for enabler Cloud Rendering
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-09-30T00:00:00.000+02:00 - 104 days since last update.
+10/10 points for providing a valid recent date: 2016-09-30T00:00:00.000+02:00 - 108 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -896,7 +896,7 @@ Measurement protocol for enabler Docker
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-08-11T00:00:00.000+02:00 - 154 days since last update.
+10/10 points for providing a valid recent date: 2016-08-11T00:00:00.000+02:00 - 158 days since last update.
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -912,7 +912,7 @@ Measurement protocol for enabler myForge
 
 0/5 points for providing a valid chapter name. -> unknown chapter: Tools
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 723 days since last update (2015-01-20T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 727 days since last update (2015-01-20T00:00:00.000+01:00)
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -928,7 +928,7 @@ Measurement protocol for enabler BigData Analysis - Cosmos
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": fiware-cosmos 1.0.0, fiware-cygnus 1.3.0, fiware-sth-comet 1.1.1, fiware-sinfonier 1.0.0)
-10/10 points for providing a valid recent date: 2016-12-12T00:00:00.000+01:00 - 31 days since last update.
+10/10 points for providing a valid recent date: 2016-12-12T00:00:00.000+01:00 - 35 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -944,7 +944,7 @@ Measurement protocol for enabler Monitoring GE - Sextant
 
 5/5 points for providing a valid chapter name.
 5/5 points for providing a valid software release version.
-10/10 points for providing a valid recent date: 2016-06-14T00:00:00.000+02:00 - 212 days since last update.
+10/10 points for providing a valid recent date: 2016-06-14T00:00:00.000+02:00 - 216 days since last update.
 0/10 points for providing a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -960,7 +960,7 @@ Measurement protocol for enabler IaaS GE - FIWARE Reference Implementation
 
 5/5 points for providing a valid chapter name.
 1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Kilo)
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 413 days since last update (2015-11-26T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 417 days since last update (2015-11-26T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 10/10 points for mentioning 'What you get'
@@ -976,7 +976,7 @@ Measurement protocol for enabler 3D-UI-WebTundra with Synchronization server
 
 0/5 points for providing a valid chapter name (no chapter provided).
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 694 days since last update (2015-02-18T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 698 days since last update (2015-02-18T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -992,7 +992,7 @@ Measurement protocol for enabler Wirecloud Monetization
 
 0/5 points for providing a valid chapter name (no chapter provided).
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 786 days since last update (2014-11-18T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 790 days since last update (2014-11-18T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -1008,7 +1008,7 @@ Measurement protocol for enabler 3D-UI-XML3D Geo Visualization
 
 0/5 points for providing a valid chapter name (no chapter provided).
 0/5 points for providing a valid software release version (no version at all could be identified).
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 769 days since last update (2014-12-05T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 773 days since last update (2014-12-05T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -1024,7 +1024,7 @@ Measurement protocol for enabler Business Framework Consumption
 
 0/5 points for providing a valid chapter name (no chapter provided).
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 786 days since last update (2014-11-18T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 790 days since last update (2014-11-18T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
@@ -1040,7 +1040,7 @@ Measurement protocol for enabler Data Context Streams
 
 0/5 points for providing a valid chapter name (no chapter provided).
 5/5 points for providing a valid software release version.
-0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 780 days since last update (2014-11-24T00:00:00.000+01:00)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 784 days since last update (2014-11-24T00:00:00.000+01:00)
 10/10 points for a valid contact email
 10/10 points for mentioning a contact person
 0/10 points for missing 'What you get'
