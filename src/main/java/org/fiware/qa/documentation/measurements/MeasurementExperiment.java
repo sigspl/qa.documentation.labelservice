@@ -17,9 +17,14 @@ import org.fiware.qa.documentation.measurements.ingest.EnablerStorage;
 import org.fiware.qa.documentation.measurements.models.EnablerDescription;
 
 import org.fiware.qa.documentation.measurements.util.ValueComparator;
-import org.sigspl.analysis.commons.labeling.SimpleLabeler;
-import org.sigspl.analysis.commons.util.MathUtil;
-import org.sigspl.analysis.commons.util.StringUtil;
+
+import com.google.common.collect.HashBasedTable;
+import com.google.common.collect.Table;
+
+import de.fhg.iais.re.analysis.commons.labeling.SimpleLabeler;
+import de.fhg.iais.re.analysis.commons.util.MathUtil;
+import de.fhg.iais.re.analysis.commons.util.StringUtil;
+
 
 
 
@@ -55,6 +60,10 @@ public class MeasurementExperiment {
 	 */
 
 	public void executeAll() {
+		
+		Table<String, Integer, Integer> feature_metrics = HashBasedTable.create();
+		
+		
 		String out = "";
 		for (Iterator<String> iterator = enablers.assets.keySet()
 				.iterator(); iterator.hasNext();) {
@@ -64,6 +73,8 @@ public class MeasurementExperiment {
 			CatalogueComplianceMeasurement c = new CatalogueComplianceMeasurement();
 			c.setEnabler(e);
 			c.setLogCollector(protocol);
+			c.setFeature_metrics(feature_metrics);
+			
 			double score = c.measureCompliance();
 			/*
 			 * String v = formatDouble
@@ -93,11 +104,32 @@ public class MeasurementExperiment {
 			String key = sample.getKey();
 			Double value = sample.getValue();
 
+			
 			// output of labels as CSV table
-			String entry = StringUtil.dquote(key) + Configuration.CSV_SEPARATOR + StringUtil.dquote(MathUtil.formatDouble(value))
-					+ Configuration.CSV_SEPARATOR + StringUtil.dquote( sl.produceLinearLabel(value));
+			String entry = 
+					StringUtil.dquote(key) + 
+					Configuration.CSV_SEPARATOR +
+					
+					
+					/** new: output measured features as well */
+					feature_metrics.get(key, 0) + Configuration.CSV_SEPARATOR + 
+					feature_metrics.get(key, 1) + Configuration.CSV_SEPARATOR +
+					feature_metrics.get(key, 2) + Configuration.CSV_SEPARATOR +
+					feature_metrics.get(key, 3) + Configuration.CSV_SEPARATOR +
+					feature_metrics.get(key, 4) + Configuration.CSV_SEPARATOR +
+					feature_metrics.get(key, 5) + Configuration.CSV_SEPARATOR +
+					feature_metrics.get(key, 6) + Configuration.CSV_SEPARATOR +
+					
+					
+					/** end new */
+					
+					
+					StringUtil.dquote(MathUtil.formatDouble(value))
+					+ Configuration.CSV_SEPARATOR 
+					+ StringUtil.dquote( sl.produceLinearLabel(value));
+			
 			out = out + entry + "\n";
-
+			
 			protocolTranscript += "\n++++++++\n\n";
 
 			protocolTranscript += (protocol.getLog(key));
@@ -123,6 +155,9 @@ public class MeasurementExperiment {
 		// write a file; TODO: make a configuration option or implement further
 		// data flow
 		try {
+			String header="Generic Enabler,F00[40],F01[30],F02[40],F03[9],F04[10],F05[10],F06[20],rating,label";
+			out = header+"\n"+out;
+
 			FileUtils.writeStringToFile(
 					new File(Configuration.ENABLERS_DATA_FILENAME), out);
 		} catch (IOException e) {

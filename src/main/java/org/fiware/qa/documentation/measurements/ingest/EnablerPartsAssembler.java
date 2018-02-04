@@ -61,6 +61,7 @@ public class EnablerPartsAssembler {
 			}
 			else if (token.startsWith("instances"))
 			{
+				
 				enabler.instances = page.text;
 				saveMeta(enabler, page);
 			}

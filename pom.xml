@@ -22,6 +22,14 @@
     </dependencyManagement>
 
     <dependencies>
+
+
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>24.0-jre</version>
+</dependency>
+
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-grizzly2-http</artifactId>
@@ -91,9 +99,9 @@
 </dependency>
 
     	<dependency>
-    		<groupId>org.sigspl.analysis.commons</groupId>
+    		<groupId>de.fhg.iais.nm.inspection</groupId>
     		<artifactId>analysis-commons</artifactId>
-    		<version>0.0.1-SNAPSHOT</version>
+    		<version>0.0.3-SNAPSHOT</version>
     	</dependency>
     </dependencies>
 

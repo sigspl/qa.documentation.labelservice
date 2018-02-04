@@ -1,0 +1,1083 @@
+Catalogue compliance guide check transcript 
+Details: https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Working_with_the_FIWARE_catalogue#Guidelines_on_what_to_write
+
+
+ *** ATTENTION ***: Strikingly low scores might be affected by https://jira.fiware.org/browse/CAT-346 or some other error either in Catalogue or this software! Your feedback is greatly appreciated - just post an issue in this GitHub repo!.
+
+Date of measurement procedure: 2018-02-04
+Used Catalogue online data scraped as of: 2018-02-04
+
+
+
+
+++++++++
+
+Measurement protocol for enabler POI Data Provider
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 503 days since last update (2016-09-19T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1058
+40/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Business API Ecosystem - Biz Ecosystem RI
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-12-20T00:00:00.000+01:00 - 46 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+1/10 points for matching recommended median-based text length 1500 chars: length=2840
+35/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+12/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Application Mashup - Wirecloud
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-11-01T00:00:00.000+01:00 - 95 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+6/10 points for matching recommended median-based text length 1500 chars: length=3914
+35/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+13/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Store - WStore
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-06-07T00:00:00.000+02:00 - 242 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+1/10 points for matching recommended median-based text length 1500 chars: length=2856
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+12/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Policy Manager - Bosun
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-05-16T00:00:00.000+02:00 - 264 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=3996
+40/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Repository - Repository RI
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 495 days since last update (2016-09-27T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1349
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+4/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler IoT Data Edge Consolidation GE - Cepheus
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-06-15T00:00:00.000+02:00 - 234 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+5/10 points for matching recommended median-based text length 1500 chars: length=3791
+30/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+8/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler 3DUI - WebTundra
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 496 days since last update (2016-09-26T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1980
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Privacy
+
+4/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 551 days since last update (2016-08-02T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1708
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Data Visualization - SpagoBI
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-11-20T00:00:00.000+01:00 - 76 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+10/10 points for matching recommended median-based text length 1500 chars: length=1426
+35/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Interface Designer
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 496 days since last update (2016-09-26T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1602
+40/40 points for page creating_instances
+3/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Augmented Reality
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1050
+30/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler IoT Discovery
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Release 5)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 466 days since last update (2016-10-26T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+2/10 points for matching recommended median-based text length 1500 chars: length=2759
+40/40 points for page creating_instances
+3/9 points for page documentation
+10/10 points for page downloads
+9/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Authorization PDP - AuthZForce
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": GEi (Authzforce CE Server): 8.0.1, GE (Authorization PDP) API: 5.2)
+10/10 points for providing a valid recent date: 2017-12-11T00:00:00.000+01:00 - 55 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+2/10 points for matching recommended median-based text length 1500 chars: length=3278
+40/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler GIS Data Provider - Geoserver/3D
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 648 days since last update (2016-04-27T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+10/10 points for mentioning 'Why to get it'
+5/10 points for matching recommended median-based text length 1500 chars: length=2263
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+7/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Identity Management - KeyRock
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+4/10 points for matching recommended median-based text length 1500 chars: length=3554
+40/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+9/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Data Visualization - Knowage
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-11-10T00:00:00.000+01:00 - 86 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+5/10 points for matching recommended median-based text length 1500 chars: length=2211
+35/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+4/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Marketplace - WMarket
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 495 days since last update (2016-09-27T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+10/10 points for matching recommended median-based text length 1500 chars: length=1559
+30/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+4/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Synchronization - FiVES
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": FIWARE - 5.4.3)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 461 days since last update (2016-10-31T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+8/10 points for matching recommended median-based text length 1500 chars: length=1804
+31/40 points for page creating_instances
+6/9 points for page documentation
+0/10 points for page downloads
+8/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Self Service Interfaces - Cloud Portal
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1996
+40/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler 3D-UI-XML3D
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 647 days since last update (2016-04-28T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1644
+30/40 points for page creating_instances
+6/9 points for page documentation
+0/10 points for page downloads
+8/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler SoPeCo
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Tools
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1048 days since last update (2015-03-24T00:00:00.000+01:00)
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1039
+30/40 points for page creating_instances
+6/9 points for page documentation
+10/10 points for page downloads
+6/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler IoT Broker
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+8/10 points for matching recommended median-based text length 1500 chars: length=4162
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+2/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Stream-oriented - Kurento
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+1/10 points for matching recommended median-based text length 1500 chars: length=3199
+30/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+8/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler FIWARE NGSI10 TestServer
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Tools
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1048 days since last update (2015-03-24T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+10/10 points for matching recommended median-based text length 1500 chars: length=1506
+30/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+4/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler PEP Proxy - Wilma
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-06-12T00:00:00.000+02:00 - 237 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+6/10 points for matching recommended median-based text length 1500 chars: length=2150
+40/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+4/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Trustworthy Factory
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 733 days since last update (2016-02-02T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1078
+30/40 points for page creating_instances
+6/9 points for page documentation
+0/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler FIWARE CKAN Extensions
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-07T00:00:00.000+01:00 - 28 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+3/10 points for matching recommended median-based text length 1500 chars: length=2502
+30/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Complex Event Processing (CEP) - Proactive Technology Online
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Version 5)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 546 days since last update (2016-08-07T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+8/10 points for matching recommended median-based text length 1500 chars: length=1757
+31/40 points for page creating_instances
+3/9 points for page documentation
+0/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Real Virtual Interaction
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 593 days since last update (2016-06-21T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+10/10 points for mentioning 'Why to get it'
+6/10 points for matching recommended median-based text length 1500 chars: length=2037
+30/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+7/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Synchronization
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 503 days since last update (2016-09-19T00:00:00.000+02:00)
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1609
+40/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Cloud Messaging - AEON
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": 0.3.0 (Carl))
+10/10 points for providing a valid recent date: 2017-11-22T00:00:00.000+01:00 - 74 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1881
+31/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+2/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Publish/Subscribe Context Broker - Orion Context Broker
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Latest)
+10/10 points for providing a valid recent date: 2017-03-09T00:00:00.000+01:00 - 332 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+1/10 points for matching recommended median-based text length 1500 chars: length=2907
+40/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+9/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler 2D/3D Capture
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 522 days since last update (2016-08-31T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+10/10 points for mentioning 'Why to get it'
+3/10 points for matching recommended median-based text length 1500 chars: length=2608
+30/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+7/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Cyber Security GE - CyberCAPTOR
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": R4)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 733 days since last update (2016-02-02T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+8/10 points for matching recommended median-based text length 1500 chars: length=4779
+31/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+0/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Revenue Settlement and Sharing System - RSS RI
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-06-07T00:00:00.000+02:00 - 242 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=4287
+10/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+8/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Electronic Data Exchange - Domibus
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 475 days since last update (2016-10-17T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+8/10 points for matching recommended median-based text length 1500 chars: length=1800
+15/40 points for page creating_instances
+3/9 points for page documentation
+0/10 points for page downloads
+2/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler 2D-UI
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+10/10 points for providing a valid recent date: 2018-01-19T00:00:00.000+01:00 - 16 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1698
+30/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Virtual Characters
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1383
+30/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Object Storage GE - FIWARE Implementation
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1683
+0/40 points for page creating_instances
+3/9 points for page documentation
+10/10 points for page downloads
+4/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Trace Analyzer
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Tools
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1528 days since last update (2013-11-29T00:00:00.000+01:00)
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1403
+30/40 points for page creating_instances
+6/9 points for page documentation
+0/10 points for page downloads
+2/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Kiara Advanced Middleware
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Advanced middleware and interfaces to Network and Devices
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 731 days since last update (2016-02-04T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=2004
+0/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+10/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Protocol Adapter - MR CoAP
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 445 days since last update (2016-11-16T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1372
+30/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+6/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Application Management - Murano
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 458 days since last update (2016-11-03T00:00:00.000+01:00)
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+0/10 points for matching recommended median-based text length 1500 chars: length=2953
+10/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Security Monitoring
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": )
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 886 days since last update (2015-09-02T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+-6/10 points for matching recommended median-based text length 1500 chars: length=6827
+20/40 points for page creating_instances
+3/9 points for page documentation
+0/10 points for page downloads
+7/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Backend Device Management - IDAS
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Agent-Node-Lib 2.5.1; Agent-LiweightM2M 0.4.0; Agent-UL 1.5.2; Agent-JSON 1.6.2)
+10/10 points for providing a valid recent date: 2018-02-01T00:00:00.000+01:00 - 3 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+4/10 points for matching recommended median-based text length 1500 chars: length=3622
+1/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+9/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Fast RTPS
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Advanced middleware and interfaces to Network and Devices
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 495 days since last update (2016-09-27T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+10/10 points for matching recommended median-based text length 1500 chars: length=1558
+0/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Software Deployment & Configuration - Sagitta
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-05-16T00:00:00.000+02:00 - 264 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=4082
+0/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Cygnus
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": R6)
+10/10 points for providing a valid recent date: 2017-11-20T00:00:00.000+01:00 - 76 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1383
+30/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+0/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Network Information and Control - OFNIC
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Advanced middleware and interfaces to Network and Devices
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": v2.1)
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+8/10 points for matching recommended median-based text length 1500 chars: length=4167
+0/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+11/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler PaaS Manager - Pegasus
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-05-16T00:00:00.000+02:00 - 264 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+2/10 points for matching recommended median-based text length 1500 chars: length=3359
+0/40 points for page creating_instances
+9/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler STH-Comet
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": R6)
+10/10 points for providing a valid recent date: 2017-11-20T00:00:00.000+01:00 - 76 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1091
+30/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+0/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Monitoring GE - Sextant
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-05-16T00:00:00.000+02:00 - 264 days since last update.
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+5/10 points for matching recommended median-based text length 1500 chars: length=3784
+0/40 points for page creating_instances
+3/9 points for page documentation
+10/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler PROSA
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Tools
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 747 days since last update (2016-01-19T00:00:00.000+01:00)
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+10/10 points for matching recommended median-based text length 1500 chars: length=1486
+0/40 points for page creating_instances
+6/9 points for page documentation
+0/10 points for page downloads
+6/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Docker
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 542 days since last update (2016-08-11T00:00:00.000+02:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+1/10 points for matching recommended median-based text length 1500 chars: length=3088
+1/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+2/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler IaaS GE - FIWARE Reference Implementation
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": Kilo)
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+8/10 points for matching recommended median-based text length 1500 chars: length=1199
+0/40 points for page creating_instances
+0/9 points for page documentation
+10/10 points for page downloads
+2/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler FIA Project Management Plugin
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name. -> unknown chapter: Tools
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1523 days since last update (2013-12-04T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+7/10 points for matching recommended median-based text length 1500 chars: length=1058
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler BigData Analysis - Cosmos
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+1/5 points for providing a valid software release version (some version seems to be provided but not in valid format "A.B.C": fiware-cosmos 1.0.0, fiware-cygnus 1.3.0, fiware-sth-comet 1.1.1, fiware-sinfonier 1.0.0)
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 419 days since last update (2016-12-12T00:00:00.000+01:00)
+0/10 points for providing a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+10/10 points for mentioning 'Why to get it'
+1/10 points for matching recommended median-based text length 1500 chars: length=2800
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+7/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Cloud Rendering
+
+5/5 points for providing items in the top bar (not scoring 'Downloads'.
+5/5 points for providing a valid chapter name.
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2018-01-17T00:00:00.000+01:00 - 18 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+10/10 points for mentioning 'What you get'
+0/10 points for missing 'Why to get  it'
+9/10 points for matching recommended median-based text length 1500 chars: length=1632
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+5/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler 3D-UI-WebTundra with Synchronization server
+
+2/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name (no chapter provided).
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1082 days since last update (2015-02-18T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+0/10 points for matching recommended median-based text length 1500 chars: length=0
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+3/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler 3D-UI-XML3D Geo Visualization
+
+2/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name (no chapter provided).
+0/5 points for providing a valid software release version (no version at all could be identified).
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1157 days since last update (2014-12-05T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+0/10 points for matching recommended median-based text length 1500 chars: length=0
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+0/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Business Framework Consumption
+
+2/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name (no chapter provided).
+5/5 points for providing a valid software release version.
+0/10 points for providing a valid recent date. enabler not updated since more than 1 year: 1174 days since last update (2014-11-18T00:00:00.000+01:00)
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+0/10 points for matching recommended median-based text length 1500 chars: length=0
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+0/20 points for matching relevant N-Grams on the Terms&Conditions page
+++++++++
+
+Measurement protocol for enabler Data Context Streams
+
+2/5 points for providing items in the top bar (not scoring 'Downloads'.
+0/5 points for providing a valid chapter name (no chapter provided).
+5/5 points for providing a valid software release version.
+10/10 points for providing a valid recent date: 2017-09-26T00:00:00.000+02:00 - 131 days since last update.
+10/10 points for a valid contact email
+10/10 points for mentioning a contact person
+0/10 points for missing 'What you get'
+0/10 points for missing 'Why to get  it'
+0/10 points for matching recommended median-based text length 1500 chars: length=0
+0/40 points for page creating_instances
+0/9 points for page documentation
+0/10 points for page downloads
+0/20 points for matching relevant N-Grams on the Terms&Conditions page

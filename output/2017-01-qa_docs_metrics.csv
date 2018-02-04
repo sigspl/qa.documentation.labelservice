@@ -5,6 +5,7 @@ catalogue.creating_instances.section3,10
 catalogue.documentation,9
 catalogue.downloads.github_mentioned,10
 catalogue.meta.chapter_mentioned,5
+catalogue.meta.top_menu_bar_ok,5
 catalogue.meta.valid_contact,5
 catalogue.meta.valid_date,10
 catalogue.meta.valid_email,10
@@ -13,3 +14,4 @@ catalogue.overview.optimal_length,10
 catalogue.overview.what,10
 catalogue.overview.why,10
 catalogue.terms_conditions.relevant_ngrams,20
+instances.listed,10
